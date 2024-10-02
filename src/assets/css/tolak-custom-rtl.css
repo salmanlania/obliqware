@@ -1,0 +1,49 @@
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots,
+.owl-carousel .owl-item,
+.tns-outer .tns-item {
+  direction: rtl;
+}
+
+.client-carousel .tns-inner {
+  direction: ltr;
+}
+
+.contact__input-box .bootstrap-select .dropdown-menu,
+.bootstrap-select .dropdown-toggle .filter-option {
+  text-align: right;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.team-card::after {
+  right: -100px;
+  top: -80px;
+}
+
+.main-slider-one__bg {
+  transform: scaleX(-1);
+}
+
+.main-slider-one__bg::before {
+  background-image: url(../images/shapes/slider-1-overlay-rtl.png) !important;
+  transform: scaleX(-1);
+}
+
+.our-solution__image img {
+  mask-image: url(../images/shapes/solution-1-1-shape-rtl.png);
+  -webkit-mask-image: url(../images/shapes/solution-1-1-shape-rtl.png);
+}
+
+/*# sourceMappingURL=tolak-custom-rtl.css.map */

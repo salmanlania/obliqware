@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?rye3go');
+  src:  url('fonts/icomoon.eot?rye3go#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?rye3go') format('truetype'),
+    url('fonts/icomoon.woff?rye3go') format('woff'),
+    url('fonts/icomoon.svg?rye3go#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+  content: "\e91e";
+}
+.icon-magnifying-glass:before {
+  content: "\e922";
+}
+.icon-shopping-cart:before {
+  content: "\e921";
+}
+.icon-down-arrow:before {
+  content: "\e902";
+}
+.icon-up-arrow:before {
+  content: "\e919";
+}
+.icon-left-arrow:before {
+  content: "\e91a";
+}
+.icon-right-arrow:before {
+  content: "\e91b";
+}
+.icon-phone-call:before {
+  content: "\e900";
+}
+.icon-check-mark:before {
+  content: "\e901";
+}
+.icon-social-care:before {
+  content: "\e903";
+}
+.icon-note-pad:before {
+  content: "\e904";
+}
+.icon-advertisement:before {
+  content: "\e905";
+}
+.icon-trophy:before {
+  content: "\e906";
+}
+.icon-best-price:before {
+  content: "\e907";
+}
+.icon-cooperation:before {
+  content: "\e908";
+}
+.icon-ads-campaign:before {
+  content: "\e909";
+}
+.icon-headhunter:before {
+  content: "\e90a";
+}
+.icon-agency:before {
+  content: "\e90b";
+}
+.icon-advertisig-agency:before {
+  content: "\e90c";
+}
+.icon-management:before {
+  content: "\e90d";
+}
+.icon-customer-service:before {
+  content: "\e90e";
+}
+.icon-briefing:before {
+  content: "\e90f";
+}
+.icon-ancestors:before {
+  content: "\e910";
+}
+.icon-admin:before {
+  content: "\e911";
+}
+.icon-play:before {
+  content: "\e912";
+}
+.icon-play-button:before {
+  content: "\e913";
+}
+.icon-low-cost:before {
+  content: "\e914";
+}
+.icon-zakat:before {
+  content: "\e915";
+}
+.icon-agent:before {
+  content: "\e916";
+}
+.icon-solutions:before {
+  content: "\e917";
+}
+.icon-family:before {
+  content: "\e918";
+}
+.icon-refund:before {
+  content: "\e91c";
+}
+.icon-open-mail:before {
+  content: "\e91d";
+}
+.icon-pin:before {
+  content: "\e91f";
+}
+.icon-messages:before {
+  content: "\e920";
+}

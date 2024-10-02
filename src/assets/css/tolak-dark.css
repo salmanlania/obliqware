@@ -1,0 +1,436 @@
+/* :root {
+  --tolak-white: #060414;
+  --tolak-white-rgb: toRGB(#060414);
+  --tolak-black: #fff;
+  --tolak-black-rgb: toRGB(#fff);
+  --tolak-text: #c1c1c1;
+  --tolak-text-rgb: toRGB(#c1c1c1);
+  --tolak-gray: #051d1f;
+  --tolak-gray-rgb: toRGB(#051d1f);
+  --tolak-gray3: #636363;
+  --tolak-gray3-rgb: toRGB(#636363);
+  --tolak-black2: #051d1f;
+  --tolak-black2-rgb: toRGB(#051d1f);
+} */
+
+body.dark .project-one__read-more:hover,
+body.dark .project-one__hover-bottom,
+body.dark .why-choose-two__item__rm:hover,
+body.dark .main-header-four.sticky-header--cloned,
+body.dark .pricing-one__card:hover .pricing-one__card__icon,
+body.dark .topbar-two__left__title,
+body.dark .main-header-two.sticky-header--cloned,
+body.dark .funfact-one__item--two,
+body.dark .blog-card__bg::after,
+body.dark .feature-four .tolak-stretch-element-inside-column,
+body.dark .about-three__content__quote,
+body.dark .cta-six__content,
+body.dark .testimonials-card-two__top,
+body.dark .cta-five__bg::before,
+body.dark .team-card-two::after,
+body.dark .team-card-two:hover:after,
+body.dark .skill-one__content__list li span,
+body.dark .mail-section-two__wrapper,
+body.dark .main-footer-two .footer-widget--about-two .footer-widget__social a,
+body.dark .demo-one__card,
+body.dark .main-header-two__inner__bg-one,
+body.dark .about-two__tabs li,
+body.dark .about-two__content__list li span,
+body.dark .about-two__content__image__bg,
+body.dark .faq-one,
+body.dark .project-two__item__image::after,
+body.dark .cta-four__bg::before,
+body.dark .work-process-one,
+body.dark .cta-three__bg,
+body.dark .background-black,
+body.dark .topbar-one,
+body.dark .cta-one__bg,
+body.dark .about-one,
+body.dark .contact-one__wrapper {
+  background-color: var(--tolak-black2);
+}
+
+.dark .blog-card-three__image__link,
+.dark .work-process-one__item__hover::after,
+.dark .blog-card-two__image__link,
+.dark .team-card__image::after,
+.dark .blog-card__image__link {
+  background-color: rgba(6, 4, 20, 0.75);
+}
+
+.dark .main-footer-two .footer-widget--about-two .footer-widget__social a:hover,
+.dark .why-choose-two__item__rm,
+.dark .pricing-one__card__icon,
+.dark .client-carousel__one__item:hover {
+  background-color: var(--tolak-base);
+}
+
+.dark .tolak-btn:hover {
+  color: var(--tolak-base);
+}
+
+.dark .project-two__item__rm:hover,
+.dark .slide-text,
+.dark .team-card-two__social,
+.dark .why-choose-one,
+.dark .testimonials-two,
+.dark .footer-widget--about-two .footer-widget__social a,
+.dark .main-slider-two,
+.dark .testimonials-one__bg,
+.dark .sidebar-one__content,
+.dark .pricing-one__card,
+.dark .footer-widget__social a,
+.dark .main-footer__bottom {
+  background-color: var(--tolak-white);
+}
+
+.dark .feature-three__item__hover,
+.dark .contact-two__wrapper,
+.dark .blog-card-three,
+.dark .main-slider-two__social,
+.dark .blog-card-two__meta,
+.dark .blog-card-two__content,
+.dark .funfact-one__accordion .accordion-item,
+.dark .funfact-one__accordion .accordion-item+.accordion-item,
+.dark .funfact-one__accordion,
+.dark .why-choose-two__item,
+.dark .blog-card,
+.dark .mail-section__wrapper,
+.dark .about-four__tabs,
+.dark .client-carousel {
+  border-color: rgba(var(--tolak-border-color-rgb), 0.25);
+}
+
+.dark .project-two__item__rm,
+.dark .service-two__item__hover__btn,
+.dark .service-two__item__normal__icon,
+.dark .faq-one__accordion .accordion-button:not(.collapsed) .accrodion-title__icon::after,
+.dark .faq-one__accordion .accordion-button:not(.collapsed) .accrodion-title__icon::before,
+.dark .main-slider-three__btn .tolak-btn,
+.dark .contact-two__info__social__wrap a,
+.dark .contact-two__info__box__icon,
+.dark .cta-four__bg,
+.dark .cta-four__content__bar,
+.dark .blog-card-two__image__link::before,
+.dark .blog-card-two__image__link::after,
+.dark .main-slider-one__carousel .owl-dots .owl-dot:hover span,
+.dark .main-slider-one__carousel .owl-dots .owl-dot.active span,
+.dark .team-card__social__list a,
+.dark .blog-card__image__link::before,
+.dark .blog-card__image__link::after,
+.dark .main-slider-four__btn .tolak-btn--one,
+.dark .main-slider-four__sub-title,
+.dark .main-header-four__toggler span,
+.dark .main-header-four__logo {
+  background-color: var(--tolak-black);
+}
+
+.dark .testimonials-card__image,
+.dark .cta-six__author img,
+.dark .contact-two__info__box-wrapper,
+.dark .work-process-one__item:hover .work-process-one__item__thumb,
+.dark .cta-three__author img,
+.dark .main-slider-one__carousel .owl-dots .owl-dot span,
+.dark .funfact-one__item::after,
+.dark .pricing-one__card:hover::after {
+  border-color: var(--tolak-black);
+}
+
+.dark .feature-one__item:hover .feature-one__item__icon,
+.dark .project-one__read-more:hover,
+.dark .project-one__title,
+.dark .project-one__read-more,
+.dark .testimonials-card__name,
+.dark .project-two__item__rm:hover,
+.dark .about-four__content__btn .video-popup,
+.dark .why-choose-two__item__icon,
+.dark .team-card-two__social>i,
+.dark .team-card-two:hover .team-card-two__designation,
+.dark .team-card-two:hover .team-card-two__title,
+.dark .pricing-one__card:hover .pricing-one__card__icon,
+.dark .cta-two__info__icon,
+.dark .feature-two__item__icon,
+.dark .main-slider-three__btn .tolak-btn:hover,
+.dark .main-slider-three__btn .video-popup,
+.dark .main-slider-three__text,
+.dark .main-slider-three__title,
+.dark .about-three__content__btn .video-popup,
+.dark .about-three__fact__text,
+.dark .about-three__fact__count,
+.dark .about-three__fact__icon,
+.dark .cta-six__content__text,
+.dark .why-choose-one__item__title,
+.dark .why-choose-one__content .sec-title-two__title,
+.dark .cta-five__content__icon,
+.dark .cta-five__content__title,
+.dark .team-card-two__social__list a:hover,
+.dark .team-card-two:hover .team-card-two__social>i,
+.dark .skill-one__content__skill .graph-outer .count-box,
+.dark .skill-one__content__list li:hover span,
+.dark .feature-three__item__icon,
+.dark .feature-three__item__link:hover,
+.dark .feature-three__item__link,
+.dark .feature-three__item__normal__text,
+.dark .feature-three__item__normal__title,
+.dark .feature-three .sec-title-two__title,
+.dark .contact-two__info__social__title,
+.dark .contact-two__info__box__text,
+.dark .contact-two__info__box__title,
+.dark .contact-two__info__text,
+.dark .contact-two__info__title,
+.dark .blog-card-three__image__link i:hover,
+.dark .blog-card-three__image__link i,
+.dark .blog-card-three__date,
+.dark .mail-section-two__content__title,
+.dark .mail-section-two__content__icon,
+.dark .main-slider-two__social__wrap a:hover,
+.dark .main-slider-two__social__wrap a,
+.dark .about-two__tabs li:hover,
+.dark .about-two__tabs li.active-btn,
+.dark .about-two__tabs li,
+.dark .about-two__fact__icon,
+.dark .about-two__fact__count,
+.dark .about-two__fact__text,
+.dark .about-two__content__list li:hover span,
+.dark .cta-four__content .sec-title-two__title,
+.dark .cta-four__content .video-popup,
+.dark .work-process-one__item:hover .work-process-one__item__rm:hover,
+.dark .work-process-one__item:hover .work-process-one__item__rm,
+.dark .work-process-one__item:hover .work-process-one__item__title,
+.dark .work-process-one__item__thumb__number,
+.dark .testimonials-one .sec-title-two__title,
+.dark .cta-three__content__title,
+.dark .blog-card-two__meta__date,
+.dark .main-footer-two__bottom__list li,
+.dark .main-slider-one__project__title,
+.dark .main-slider-one__project__number,
+.dark .main-slider-one__project__icon,
+.dark .main-slider-one__social a:hover,
+.dark .main-slider-one__social a,
+.dark .main-slider-one__text__one,
+.dark .main-slider-one__title,
+.dark .main-slider-one__social__title,
+.dark .cta-one__box__title,
+.dark .about-one__image__text,
+.dark .about-one__content__btn .tolak-btn:hover,
+.dark .about-one__video-btn .video-popup,
+.dark .about-one__content__btn__text,
+.dark .about-one__content__list li span,
+.dark .about-one__content .sec-title__title,
+.dark .funfact-one__accordion .accordion-button:not(.collapsed) .accrodion-title__icon::before,
+.dark .funfact-one__accordion .accordion-button:not(.collapsed) .accrodion-title h4 i,
+.dark .funfact-one__accordion .accordion-button:not(.collapsed) .accrodion-button,
+.dark .funfact-one__item__text,
+.dark .funfact-one__item__count,
+.dark .contact-one__content .sec-title__title,
+.dark .contact-one__info__text,
+.dark .contact-one__info__title,
+.dark .contact-one__info__icon,
+.dark .sidebar-one__newsletter button[type=submit],
+.dark .sidebar-one__social a:hover,
+.dark .sidebar-one__social a,
+.dark .sidebar-one__title,
+.dark .sidebar-one__close,
+.dark .cta-two__content__title a:hover,
+.dark .cta-two__info__text,
+.dark .cta-two__info__title,
+.dark .cta-two__content__title,
+.dark .cta-two__call-text,
+.dark .why-choose-two__item__rm,
+.dark .our-solution__list ul li span,
+.dark .our-solution__list__title,
+.dark .our-solution__box__icon,
+.dark .our-solution__content .sec-title__title,
+.dark .team-card__social__list a:hover,
+.dark .faq-one__accordion .accordion-button:not(.collapsed),
+.dark .faq-one__accordion .accordion-header button,
+.dark .faq-one__content__list li span,
+.dark .faq-one__content .sec-title-two__title,
+.dark .pricing-one__card .tolak-btn:hover,
+.dark .pricing-one__card:hover .pricing-one__card__price,
+.dark .pricing-one__card:hover .pricing-one__card__title,
+.dark .pricing-one__card__price,
+.dark .pricing-one__card__title,
+.dark .pricing-one__card__icon,
+.dark .testimonials-three .sec-title-two__title,
+.dark .blog-card__meta__date,
+.dark .footer-widget__posts__title,
+.dark .footer-widget__title,
+.dark .footer-widget__social a:hover,
+.dark .footer-widget__social a,
+.dark .service-one--home-four .sec-title-two__title,
+.dark .about-four__content__list li:hover span,
+.dark .about-four__tabs__list li:hover,
+.dark .about-four__tabs__list li.active-btn,
+.dark .about-four__fact__text,
+.dark .about-four__fact__count,
+.dark .about-four__fact__icon,
+.dark .main-slider-four__btn .tolak-btn--one:hover,
+.dark .main-slider-four__text,
+.dark .main-slider-four__title-two,
+.dark .main-header-four__call__number,
+.dark .main-header-four__cart__count,
+.dark .main-menu .main-menu__list li ul li>a,
+.dark .slide-text__list li,
+.dark .tolak-btn,
+.dark .project-two__item__cats,
+.dark .project-two__item__title,
+.dark .faq-one__right__title,
+.dark .faq-one__experiance__title,
+.dark .main-header-four__social a,
+.dark .service-two__item__normal__title,
+.dark .service-two__item__hover__title,
+.dark .service-one__item__icon,
+.dark .main-header-four__social__title {
+  color: var(--tolak-black);
+}
+
+.dark .slide-text__list li:nth-child(even),
+.dark .main-slider-one__floating-text,
+.dark .main-slider-four__title {
+  -webkit-text-stroke-color: var(--tolak-black);
+}
+
+.dark .slide-text__list li::after {
+  color: var(--tolak-black);
+  -webkit-text-fill-color: var(--tolak-black);
+}
+
+.dark .blog-card:hover {
+  border-style: dashed;
+}
+
+.dark .work-process-one__item::after,
+.dark .cta-two__bg,
+.dark .pricing-one__card::before {
+  background-color: #122438;
+}
+
+.dark .main-header__cart,
+.dark .main-header__search,
+.dark .main-menu .main-menu__list>li>a,
+.dark .cta-two__content__text {
+  color: var(--tolak-text-dark);
+}
+
+.dark .main-header__toggler span {
+  background-color: var(--tolak-text-dark);
+}
+
+
+.dark .main-menu .main-menu__list li ul li.current>a,
+
+.dark .main-menu .main-menu__list li ul li:hover>a {
+  background-color: var(--tolak-black2);
+  color: var(--tolak-text-dark);
+}
+
+/*.service-one--home-four .service-one__item {
+    background-color: transparent;
+}*/
+.dark .funfact-two__item:not(:first-of-type)::before,
+.dark .main-slider-one__social a,
+.dark .form-one .bootstrap-select>.dropdown-toggle,
+.dark .form-one input[type=text],
+.dark .form-one input[type=email],
+.dark .form-one textarea,
+.dark .sidebar-one__newsletter input[type=text],
+.dark .sidebar-one__social a {
+  background-color: RGBA(255, 255, 255, 0.2);
+}
+
+.dark .service-one__item__bottom,
+.dark .service-one__item__content,
+.dark .mail-section__newsletter input[type=text],
+.dark .feature-two__item,
+.dark .main-header__right,
+.dark .contact-two__content .form-one .bootstrap-select>.dropdown-toggle,
+.dark .contact-two__content .form-one input[type=text],
+.dark .contact-two__content .form-one input[type=email],
+.dark .contact-two__content .form-one textarea {
+  border-color: RGBA(255, 255, 255, 0.2);
+}
+
+.dark .why-choose-one__item {
+  background-color: RGBA(255, 255, 255, 0.07);
+}
+
+.dark .why-choose-one__item::after {
+  border: 12px solid rgba(255, 255, 255, 0.28);
+}
+
+.dark .cta-six__content::after {
+  border: 12px solid rgba(255, 255, 255, 0.17);
+}
+
+.dark .main-slider-one__bg-svg rect {
+  stroke: var(--tolak-black2);
+}
+
+.dark .main-header-four__logo::before {
+  border-color: transparent transparent var(--tolak-black) transparent;
+}
+
+.dark .contact-two__info__box-wrapper::after,
+.dark .main-header-four__logo::after {
+  border-color: transparent transparent transparent var(--tolak-black);
+}
+
+.dark .feature-four .tolak-stretch-element-inside-column::before,
+.dark .faq-one__content__image::after {
+  border-color: transparent var(--tolak-black2) transparent transparent;
+}
+
+.dark .testimonials-card-two__top::after {
+  border-color: var(--tolak-black2) transparent transparent transparent;
+}
+
+.dark .pricing-one__card__icon,
+.dark .funfact-two__item {
+  border-color: var(--tolak-black2);
+}
+
+.dark .about-two::after {
+  background-image: url(../images/shapes/about-2-shape-3-dark.png);
+}
+
+.dark .feature-three__item__image::after {
+  background-image: linear-gradient(0deg, rgb(5, 29, 31) 0%, rgba(5, 29, 31, 0) 100%);
+}
+
+.dark .skill-one__image__text {
+  background-color: rgba(5, 29, 31, 0.82);
+  border: 5px solid rgba(255, 255, 255, 0.82);
+}
+
+.dark .pricing-one__card:hover .pricing-one__card__icon {
+  border-color: var(--tolak-base);
+}
+
+.dark .mail-section__wrapper::after {
+  background-color: rgba(var(--tolak-border-color-rgb), 0.25);
+}
+
+.dark .mail-section__newsletter button span {
+  background-color: var(--tolak-black4);
+}
+
+.dark .main-footer-two__bg::after {
+  background-color: rgba(6, 4, 20, 0.89);
+}
+
+.dark .main-header-two__inner__bg-two::after {
+  background-color: rgba(5, 29, 31, 0.88);
+}
+
+.dark .main-header-four.sticky-header--cloned,
+.dark .main-header-two.sticky-header--cloned,
+.dark .sticky-header--cloned {
+  box-shadow: 0px 3px 18px rgba(255, 255, 255, 0.1);
+}
+
+.dark .service-two__item__hover__text {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*# sourceMappingURL=tolak-dark.css.map */

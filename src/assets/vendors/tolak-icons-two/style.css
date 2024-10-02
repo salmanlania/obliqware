@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'tolak-icons-two';
+  src:  url('fonts/tolak-icons-two.eot?nf1uxi');
+  src:  url('fonts/tolak-icons-two.eot?nf1uxi#iefix') format('embedded-opentype'),
+    url('fonts/tolak-icons-two.ttf?nf1uxi') format('truetype'),
+    url('fonts/tolak-icons-two.woff?nf1uxi') format('woff'),
+    url('fonts/tolak-icons-two.svg?nf1uxi#tolak-icons-two') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="tolak-icons-two-"], [class*=" tolak-icons-two-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tolak-icons-two' !important;
+  /* speak: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tolak-icons-two-rating-stars:before {
+  content: "\e915";
+}
+.tolak-icons-two-arrow-left-short:before {
+  content: "\e922";
+}
+.tolak-icons-two-arrow-right-short:before {
+  content: "\e923";
+}
+.tolak-icons-two-solutions-three:before {
+  content: "\e91f";
+}
+.tolak-icons-two-algorithm:before {
+  content: "\e900";
+}
+.tolak-icons-two-angle-small-up:before {
+  content: "\e901";
+}
+.tolak-icons-two-angle-small-up1:before {
+  content: "\e902";
+}
+.tolak-icons-two-arrow-circle-right-1:before {
+  content: "\e903";
+}
+.tolak-icons-two-arrow-circle-right1:before {
+  content: "\e904";
+}
+.tolak-icons-two-arrow-circle-right:before {
+  content: "\e905";
+}
+.tolak-icons-two-badge-check:before {
+  content: "\e906";
+}
+.tolak-icons-two-comments:before {
+  content: "\e907";
+}
+.tolak-icons-two-cybersecurity:before {
+  content: "\e908";
+}
+.tolak-icons-two-deal:before {
+  content: "\e909";
+}
+.tolak-icons-two-diagram:before {
+  content: "\e90a";
+}
+.tolak-icons-two-failure:before {
+  content: "\e90b";
+}
+.tolak-icons-two-flow-chart:before {
+  content: "\e90c";
+}
+.tolak-icons-two-folder-management:before {
+  content: "\e90d";
+}
+.tolak-icons-two-gear:before {
+  content: "\e90e";
+}
+.tolak-icons-two-global-solution:before {
+  content: "\e90f";
+}
+.tolak-icons-two-it-settings:before {
+  content: "\e910";
+}
+.tolak-icons-two-lightbulb-dollar:before {
+  content: "\e911";
+}
+.tolak-icons-two-mail:before {
+  content: "\e912";
+}
+.tolak-icons-two-medal:before {
+  content: "\e913";
+}
+.tolak-icons-two-messages:before {
+  content: "\e914";
+}
+.tolak-icons-two-phone-call:before {
+  content: "\e916";
+}
+.tolak-icons-two-play:before {
+  content: "\e917";
+}
+.tolak-icons-two-question:before {
+  content: "\e918";
+}
+.tolak-icons-two-seo:before {
+  content: "\e919";
+}
+.tolak-icons-two-sign-in-alt:before {
+  content: "\e91a";
+}
+.tolak-icons-two-sign-in-alt1:before {
+  content: "\e91b";
+}
+.tolak-icons-two-smart-grid:before {
+  content: "\e91c";
+}
+.tolak-icons-two-solution-1:before {
+  content: "\e91d";
+}
+.tolak-icons-two-team-work:before {
+  content: "\e920";
+}
+.tolak-icons-two-user:before {
+  content: "\e921";
+}
