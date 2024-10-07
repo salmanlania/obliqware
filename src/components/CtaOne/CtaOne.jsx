@@ -45,12 +45,12 @@ const CtaOne = ({ rtl, page }) => {
                                 <h3 className="cta-one__box__title">{title}</h3>
                                 <p className="cta-one__box__text">{text}</p>
                             </div>
-                            <div className="cta-one__author">
+                            {/* <div className="cta-one__author">
                                 <Image src={author1} alt="tolak" />
                                 <Image src={author2} alt="tolak" />
                                 <Image src={author3} alt="tolak" />
                                 <Link className="cta-one__author__rm" href={href}>More <span className="fas fa-arrow-right"></span></Link>
-                            </div>
+                            </div> */}
                             <p className="cta-one__content__text">{conText} <Link href={href}>{conLinkText}</Link></p>
                         </div>
                     </Col>

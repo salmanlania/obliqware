@@ -23,6 +23,7 @@ const ServiceDetails = () => {
         lists,
         solutionText,
         contentImage,
+        secondlastText,
         lastText,
     } = data
 
@@ -88,7 +89,10 @@ const ServiceDetails = () => {
                                 ))}
                             </Row>
                             <p className="service-details__text">
-                                <span>Solution:</span> {solutionText}
+                                <span></span> {solutionText}
+                            </p>
+                            <p className="service-details__text">
+                                <span></span> {secondlastText}
                             </p>
                         </Col>
                         <Col lg={6}>

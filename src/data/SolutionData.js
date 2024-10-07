@@ -1,8 +1,10 @@
-import bg from '@/assets/images/backgrounds/solution-bg-1.jpg'
+import bg from '@/assets/images/backgrounds/solution-bg.jpeg'
+// import bg from '@/assets/images/backgrounds/solution-bg-1.jpg'
 import bgRtl from '@/assets/images/backgrounds/solution-bg-1-rtl.jpg'
-import bgDark from '@/assets/images/backgrounds/solution-bg-1-dark.jpg'
+import bgDark from '@/assets/images/backgrounds/solution-bg.jpeg'
+// import bgDark from '@/assets/images/backgrounds/solution-bg-1-dark.jpg'
 import image from '@/assets/images/resources/solution-1-1.png'
-import image2 from '@/assets/images/resources/solution-1-2.png'
+import image2 from '@/assets/images/resources/solution-1-1.png'
 import shape from '@/assets/images/shapes/solution-1-shape-1.png'
 const solutionData = {
     bg,

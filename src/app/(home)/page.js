@@ -60,7 +60,7 @@ import BlogOne from "@/components/BlogOne/BlogOne";
 import Mail from "@/components/Mail/Mail";
 import TopBar from "@/components/TopBar/TopBar";
 import Header from "@/components/Header/Header";
-import Footer from "@/components/Footer/Footer";
+import Footer from '@/components/FooterThree/FooterThree';
 import HeaderCloned from "@/components/Header/HeaderCloned";
 
 const title = "Home || Obliqware || Your Sucess, We Declare" 
@@ -84,14 +84,19 @@ const page = () => {
       <AboutOne />
       <FunFactOne />
       <CtaTwo />
-      <TeamOne />
+      <br />
+      <br />
+      <br />
+      {/* <TeamOne /> */}
       <OurSolution />
       <FeatureTwo />
       <PojectOne />
-      <ClientCarousel />
+      {/* <ClientCarousel /> */}
       <SlideText />
       <ContactOne />
-      <BlogOne />
+      {/* <BlogOne /> */}
+      <br />
+      <br />
       <Mail />
       <Footer />
     </Layout>

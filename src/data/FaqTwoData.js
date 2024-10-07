@@ -12,7 +12,7 @@ const faqTwoData = {
     accordionData: [
         {
             id: 1,
-            header: "Maecenas facilisis erat id odio",
+            header: "Innovative Solutions, Tailored for You",
             content: "Solution the connection, we create business marketing platforms business Solution as slightly believable now.",
             image: accordianLogo,
         },

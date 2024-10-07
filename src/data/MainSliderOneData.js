@@ -1,8 +1,11 @@
 import shape from '@/assets/images/shapes/slider-1-shape-1.png'
 
-import bg1 from '@/assets/images/backgrounds/slider-1-1.jpg'
-import bg2 from '@/assets/images/backgrounds/slider-1-2.jpg'
-import bg3 from '@/assets/images/backgrounds/slider-1-3.jpg'
+import bg1 from '@/assets/images/backgrounds/one.jpeg'
+import bg2 from '@/assets/images/backgrounds/two.jpeg'
+import bg3 from '@/assets/images/backgrounds/three.jpeg'
+// import bg1 from '@/assets/images/backgrounds/slider-1-1.jpg'
+// import bg2 from '@/assets/images/backgrounds/slider-1-2.jpg'
+// import bg3 from '@/assets/images/backgrounds/slider-1-3.jpg'
 import { faFacebookF, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 const mainSliderOneData = [
     {

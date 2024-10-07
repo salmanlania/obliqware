@@ -76,11 +76,13 @@ const ProjectTwo = () => {
                     {project.category}
                   </p>
                   <h3 className='project-two__item__title'>
-                    <a href={project.link}>{project.title}</a>
+                    <a>{project.title}</a>
+                    {/* <a href={project.link}>{project.title}</a> */}
                   </h3>
-                  <a href={project.link} className='project-two__item__rm'>
+                  {/* <a href={project.link} className='project-two__item__rm'> */}
+                  {/* <a className='project-two__item__rm'>
                     <span className='icon-right-arrow'></span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
 

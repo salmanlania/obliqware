@@ -1,10 +1,9 @@
-import image1 from '@/assets/images/team/team-1-1.jpg'
-import image2 from '@/assets/images/team/team-1-2.jpg'
-import image3 from '@/assets/images/team/team-1-3.jpg'
-import image4 from '@/assets/images/team/team-1-4.jpg'
-// +923462488254
-import image5 from '@/assets/images/team/team-1-5.jpg'
-import image6 from '@/assets/images/team/team-1-6.jpg'
+import image1 from '@/assets/images/team/user.png'
+import image2 from '@/assets/images/team/user.png'
+import image3 from '@/assets/images/team/user.png'
+import image4 from '@/assets/images/team/user.png'
+import image5 from '@/assets/images/team/user.png'
+import image6 from '@/assets/images/team/user.png'
 import { faFacebookF, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 const teamOneData = {
     tagLine: "Our Team Member",

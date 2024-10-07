@@ -1,4 +1,4 @@
-import bg from '@/assets/images/backgrounds/slide-text-bg.jpg'
+import bg from '@/assets/images/backgrounds/slide-text-bg-1.jpg'
 const slideTextData = {
     bg,
     lists: [

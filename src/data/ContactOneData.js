@@ -1,6 +1,6 @@
 import image from '@/assets/images/resources/contact-1-1.png'
 import imageRtl from '@/assets/images/resources/contact-1-1-rtl.png'
-import imageTwo from '@/assets/images/resources/contact-1-2.jpg'
+import imageTwo from '@/assets/images/resources/contact-1-2.webp'
 import bg from '@/assets/images/shapes/contact-1-shape-1.png'
 const contactOneData = {
     infoIcon: "icon-customer-service",
@@ -11,16 +11,16 @@ const contactOneData = {
     texts: [
         {
             id: 1,
-            title: "++255225551",
+            title: "+923462488254",
             subHref: "tel"
 
         },
-        {
-            id: 2,
-            title: "+6544144444",
-            subHref: "tel"
+        // {
+        //     id: 2,
+        //     title: "+6544144444",
+        //     subHref: "tel"
 
-        }
+        // }
     ],
     imageTwo,
     tagLine: "Get In Contact",

@@ -2,8 +2,8 @@ import shape from '@/assets/images/shapes/cta-shape-1.png'
 import bg from '@/assets/images/shapes/cta-bg-2.png'
 import bgRtl from '@/assets/images/shapes/cta-bg-2-rtl.png'
 import infoBg from '@/assets/images/shapes/cta-2-1.jpg'
-import image from '@/assets/images/resources/cta-2-2.png'
-import imageRtl from '@/assets/images/resources/cta-2-2-rtl.png'
+import image from '@/assets/images/resources/cta-2-2-2-rtll.png'
+import imageRtl from '@/assets/images/resources/cta-2-2-2-rtll.png'
 const ctaTwoData = {
     shape,
     bg,

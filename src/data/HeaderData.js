@@ -25,7 +25,7 @@ const sidebarOneText =
 const singleNavItems = [
   { name: 'Home', href: 'home', },
   { name: 'Services', href: 'services', },
-  { name: 'About', href: 'about', },
+  { name: 'About', href: '/about', },
   { name: 'Team', href: 'team', },
   { name: 'Project', href: 'project', },
   { name: 'Contact', href: 'contact', },
@@ -34,7 +34,7 @@ const singleNavItems = [
 const singleNavItemsTwo = [
   { name: 'Home', href: 'home', },
   { name: 'Services', href: 'services', },
-  { name: 'About', href: 'about', },
+  { name: 'About', href: '/about', },
   { name: 'Team', href: 'team', },
   { name: 'Project', href: 'project', },
   { name: 'Contact', href: 'contact', },
@@ -43,7 +43,7 @@ const singleNavItemsTwo = [
 const singleNavItemsThree = [
   { name: 'Home', href: 'home', },
   { name: 'Services', href: 'services', },
-  { name: 'About', href: 'about', },
+  { name: 'About', href: '/about', },
   { name: 'Team', href: 'team', },
   { name: 'Project', href: 'project', },
   { name: 'Contact', href: 'contact', },
@@ -52,7 +52,7 @@ const singleNavItemsThree = [
 const singleNavItemsFour = [
   { name: 'Home', href: 'home', },
   { name: 'Services', href: 'services', },
-  { name: 'About', href: 'about', },
+  { name: 'About', href: '/about', },
   { name: 'Team', href: 'team', },
   { name: 'Project', href: 'project', },
   { name: 'Contact', href: 'contact', },
@@ -61,7 +61,7 @@ const singleNavItemsFour = [
 const singleNavItemsFive = [
   { name: 'Home', href: 'home', },
   { name: 'Services', href: 'services', },
-  { name: 'About', href: 'about', },
+  { name: 'About', href: '/about', },
   { name: 'Team', href: 'team', },
   { name: 'Project', href: 'project', },
   { name: 'Contact', href: 'contact', },
@@ -70,7 +70,7 @@ const singleNavItemsFive = [
 const singleNavItemsSix = [
   { name: 'Home', href: 'home', },
   { name: 'Services', href: 'services', },
-  { name: 'About', href: 'about', },
+  { name: 'About', href: '/about', },
   { name: 'Team', href: 'team', },
   { name: 'Project', href: 'project', },
   { name: 'Contact', href: 'contact', },
@@ -79,7 +79,7 @@ const singleNavItemsSix = [
 const singleNavItemsSeven = [
   { name: 'Home', href: 'home', },
   { name: 'Services', href: 'services', },
-  { name: 'About', href: 'about', },
+  { name: 'About', href: '/about', },
   { name: 'Team', href: 'team', },
   { name: 'Project', href: 'project', },
   { name: 'Contact', href: 'contact', },

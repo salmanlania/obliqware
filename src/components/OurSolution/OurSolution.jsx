@@ -17,7 +17,7 @@ const { bg,
 
 const OurSolution = ({ Two, dark }) => {
     return (
-        <section className="our-solution" style={{ backgroundImage: `url(${dark ? bgDark.src : bg.src})` }}>
+        <section className="our-solution" style={{ background: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${dark ? bgDark.src : bg.src})`, backgroundSize : 'cover' , backgroundPosition : 'cover' }}>
             <Container>
                 <Row >
                     <Col lg={6}>

@@ -4,33 +4,33 @@ const projectDetailsFaqData = {
   accordionData: [
     {
       id: 1,
-      title: "Maecenas facilisis erat id odio",
+      title: "Innovative Solutions, Tailored for You",
       content:
-        "There are many variations of passages of is psum available, but the majority have suffered alteration in some we form, by injected humour,",
+        "While every business is unique, we bring a personalized approach to ensure the right solutions for your success. Let’s create something great together.",
     },
     {
       id: 2,
       title: "Phasellus et vehicula nulla",
       content:
-        "There are many variations of passages of is psum available, but the majority have suffered alteration in some we form, by injected humour,",
+        "While every business is unique, we bring a personalized approach to ensure the right solutions for your success. Let’s create something great together.",
     },
     {
       id: 3,
       title: "Maecenas malesuada",
       content:
-        "There are many variations of passages of is psum available, but the majority have suffered alteration in some we form, by injected humour,",
+        "While every business is unique, we bring a personalized approach to ensure the right solutions for your success. Let’s create something great together.",
     },
     {
       id: 4,
       title: "Why you join our team",
       content:
-        "There are many variations of passages of is psum available, but the majority have suffered alteration in some we form, by injected humour,",
+        "While every business is unique, we bring a personalized approach to ensure the right solutions for your success. Let’s create something great together.",
     },
     {
       id: 5,
       title: "Maecenas malesuada",
       content:
-        "There are many variations of passages of is psum available, but the majority have suffered alteration in some we form, by injected humour,",
+        "While every business is unique, we bring a personalized approach to ensure the right solutions for your success. Let’s create something great together.",
     },
   ],
   image: faqImage,

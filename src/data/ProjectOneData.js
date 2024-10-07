@@ -1,7 +1,7 @@
-import image1 from "@/assets/images/project/project-1-1.jpg"
-import image2 from "@/assets/images/project/project-1-2.jpg"
-import image3 from "@/assets/images/project/project-1-3.jpg"
-import image4 from "@/assets/images/project/project-1-4.jpg"
+import image1 from "@/assets/images/project/one.jpeg"
+import image2 from "@/assets/images/project/two.jpeg"
+import image3 from "@/assets/images/project/three.jpeg"
+import image4 from "@/assets/images/project/four.jpeg"
 
 const projectOneData = {
     tagLine: "Our Projects Work",

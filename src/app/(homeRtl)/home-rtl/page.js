@@ -1,10 +1,10 @@
 
 import RtlPage from '@/components/RtlPage/RtlPage';
 
+const titles = "Home || Obliqware || Your Sucess, We Declare"
 export const metadata = {
-  title: "Home Rtl || Obliqware || Your Sucess, We Declare",
-  description:
-    "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
+  title: titles,
+  description: titles
 };
 
 const Page = () => {
