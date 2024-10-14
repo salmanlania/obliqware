@@ -1,5 +1,5 @@
-import logo from "@/assets/images/logo-light.png";
-import footerLogo from "@/assets/images/footer-logo.png";
+import logo from "@/assets/images/logo-dark.png";
+import footerLogo from "@/assets/images/logo-light.png";
 import logo4 from "@/assets/images/logo-4.png";
 import logo6 from "@/assets/images/logo-6.png";
 // import footerBg from "@/assets/images/backgrounds/footer-bg-1-1.jpg";

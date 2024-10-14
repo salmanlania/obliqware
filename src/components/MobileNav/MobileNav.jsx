@@ -29,7 +29,7 @@ const MobileNav = () => {
                     <ul className='main-menu__list'>
                         <MegaMenu />
                         {navItems.map((navItem) => (
-                            <MobileNavItems key={navItem.id} navItem={navItem} />
+                            <MobileNavItems key={navItem.id} navItem={navItem} href={navItem.href} />
                         ))}
                     </ul>
                 </div>

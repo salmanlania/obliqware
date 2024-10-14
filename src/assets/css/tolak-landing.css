@@ -585,7 +585,7 @@ h6 {
 }
 
 .preloader {
-  position: fixed;
+  /* position: fixed; */
   background-color: var(--tolak-black, #051d1f);
   background-position: center center;
   background-repeat: no-repeat;
@@ -593,7 +593,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9991;
+  z-index: 9;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
