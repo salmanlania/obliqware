@@ -8,11 +8,11 @@ import PageHeader from '@/components/PageHeader/PageHeader';
 
 import React from 'react';
 
+const title = "Blog || Obliqware || Your Sucess, We Declare";
 
 export const metadata = {
-    title: "Blog || Obliqware || Your Sucess, We Declare",
-    description:
-        "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
+    title: title,
+    description: title,
 };
 
 const page = () => {
@@ -20,7 +20,7 @@ const page = () => {
         <Layout>
             <HeaderInner />
             <HeaderInnerCloned />
-            <PageHeader title="Our News" subTitle="News Grid" />
+            <PageHeader title="Blog" subTitle="Blog" />
             <BlogThreeGrid />
             <MailTwo />
             <FooterThree />

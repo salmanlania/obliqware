@@ -5,7 +5,12 @@ import commentImage2 from "@/assets/images/blog/blog-comment-1-2.jpg";
 import post1 from '@/assets/images/blog/lp-1-3.jpg'
 import post2 from '@/assets/images/blog/lp-1-4.jpg'
 import post3 from '@/assets/images/blog/lp-1-5.jpg'
-
+import {
+    faFacebookF,
+    faInstagram,
+    faLinkedin,
+    faTwitter,
+  } from "@fortawesome/free-brands-svg-icons";
 
 const sidebarData = {
 
@@ -93,28 +98,32 @@ export const blogDetailsData = {
         text:
             "Wesay are many variations of passages of Lorem Ipsum available, but the have suffered alteration in some form, by injected humour, oris ut. In interdum sem quis congue accumsan ellentesque convallis eros tiam ultricies finibus. . Nunc ac sem sit amet purus luctus.",
         author: {
-            name: "Morata bara",
-            designation: "Founder",
+            name: "Obliqware",
+            // designation: "Founder",
             image: authorImage,
+            // faFacebookF,
+            // faInstagram,
+            // faLinkedin,
+            // faTwitter,
             social: [
                 {
                     name: "Facebook",
-                    href: "https://facebook.com",
+                    href: "https://facebook.com/obliqware",
                     icon: "fab fa-facebook-f"
                 },
                 {
-                    name: "Pinterest",
-                    href: "https://pinterest.com",
-                    icon: "fab fa-pinterest-p"
-                },
+                    name: "LinkedIn",
+                    href: "https://www.linkedin.com/company/obliqware",
+                    icon: "fab fa-linkedin-in"
+                },                
                 {
                     name: "Twitter",
-                    href: "https://twitter.com",
+                    href: "https://twitter.com/obliqware",
                     icon: "fab fa-twitter"
                 },
                 {
                     name: "Instagram",
-                    href: "https://instagram.com",
+                    href: "https://instagram.com/obliqware",
                     icon: "fab fa-instagram"
                 },
             ],

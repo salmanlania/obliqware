@@ -1,9 +1,15 @@
-import image1 from "@/assets/images/blog/blog-3-1.png";
-import image2 from "@/assets/images/blog/blog-3-2.png";
-import image3 from "@/assets/images/blog/blog-3-3.png";
-import image4 from "@/assets/images/blog/blog-3-4.png";
-import image5 from "@/assets/images/blog/blog-3-5.png";
-import image6 from "@/assets/images/blog/blog-3-6.png";
+// import image1 from "@/assets/images/blog/blog-3-1.png";
+// import image2 from "@/assets/images/blog/blog-3-2.png";
+// import image3 from "@/assets/images/blog/blog-3-3.png";
+// import image4 from "@/assets/images/blog/blog-3-4.png";
+// import image5 from "@/assets/images/blog/blog-3-5.png";
+// import image6 from "@/assets/images/blog/blog-3-6.png";
+import image1 from '@/assets/images/services/compressed/WebApp-illustration.png'
+import image2 from '@/assets/images/services/compressed/Mobile-App-illustration.png'
+import image3 from '@/assets/images/services/Ai-solutions-illustration-sized.png'
+import image4 from '@/assets/images/services/compressed/ui-ux-illustration.png'
+import image5 from '@/assets/images/services/compressed/graphic-design-illustration.png'
+import image6 from '@/assets/images/services/specialized-offerings-illustration.png'
 import authorImage from "@/assets/images/blog/blog-2-author.png";
 
 const blogThreeData = {
@@ -19,8 +25,8 @@ const blogThreeData = {
       date: "<span>15</span>Jun",
       year: "2023",
       comments: "04",
-      title: "Solution This Business For is Marketing Blog",
-      text: "We business standard chunk ofI nibh velit auctor aliquet sollic tudin.",
+      title: "Web Development Solutions for Your Business",
+      text: "We provide cutting-edge web solutions to elevate your business.",
       author: "mera",
       designation: "Admin",
     },
@@ -32,12 +38,11 @@ const blogThreeData = {
       date: "<span>19</span>Jun",
       year: "2023",
       comments: "04",
-      title: "Business Rules of Running to Web Solution",
-      text: "We business standard chunk ofI nibh velit auctor aliquet sollic tudin.",
+      title: "Key Rules for Mobile App Development",
+      text: "We provide top-notch app development solutions with a focus on innovation and quality.",
       author: "mera",
       designation: "Admin",
     },
-
     {
       id: 3,
       image: image3,
@@ -46,8 +51,8 @@ const blogThreeData = {
       date: "<span>29</span>Jun",
       year: "2023",
       comments: "04",
-      title: "We Should be Descriptive This Business",
-      text: "We business standard chunk ofI nibh velit auctor aliquet sollic tudin.",
+      title: "Harnessing AI for Business Solutions",
+      text: "Explore how artificial intelligence can optimize processes, enhance decision-making, and drive innovation in your business.",
       author: "mera",
       designation: "Admin",
     },
@@ -60,8 +65,8 @@ const blogThreeData = {
       date: "<span>15</span>Jun",
       year: "2023",
       comments: "04",
-      title: "We Are Business For is call Marketing Blog",
-      text: "We business standard chunk ofI nibh velit auctor aliquet sollic tudin.",
+        title: "Business Insights: A Marketing Blog",
+        text: "Discover valuable marketing strategies and insights to elevate your business.",
       author: "mera",
       designation: "Admin",
     },
@@ -74,8 +79,8 @@ const blogThreeData = {
       date: "<span>19</span>Jun",
       year: "2023",
       comments: "04",
-      title: "Business Shold Descriptive Solution Blog",
-      text: "We business standard chunk ofI nibh velit auctor aliquet sollic tudin.",
+      title: "Creative Graphic Design Solutions",
+      text: "Explore innovative design strategies to elevate your brand.",
       author: "mera",
       designation: "Admin",
     },
@@ -88,8 +93,8 @@ const blogThreeData = {
       date: "<span>29</span>Jun",
       year: "2023",
       comments: "04",
-      title: "Marketing Business Peratan This Business",
-      text: "We business standard chunk ofI nibh velit auctor aliquet sollic tudin.",
+      title: "Customized Offers for Your Business",
+      text: "Discover our tailored solutions designed to meet your unique business needs.",
       author: "mera",
       designation: "Admin",
     },

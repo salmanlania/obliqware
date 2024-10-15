@@ -94,8 +94,32 @@ const navItems = [
   },
   {
     id: 2,
+    name: "Services",
+    href: "#",
+    subNavItems: [
+      { id: 1, name: "Services", href: "/services" },
+      { id: 5, name: "Web Development", href: "/web-development" },
+      { id: 6, name: "Mobile App Development", href: "/mobile-app-development" },
+      { id: 7, name: "Artificial Intelligence Solutions", href: "/ai-solution" },
+      { id: 8, name: "UI/UX Design", href: "/ui-ux-design" },
+      { id: 9, name: "Graphic Design", href: "/graphic-design" },
+      { id: 10, name: "Specialized Offerings", href: "/specialized-offerings" },
+    ],
+  },
+  {
+    id: 3,
     name: "Project",
     href: "/project",
+  },
+  {
+    id: 4,
+    name: "Blog",
+    href: "/blog",
+  },
+  {
+    id: 5,
+    name: "Contact",
+    href: "/contact",
   },
   // {
   //   id: 2,
@@ -165,32 +189,32 @@ const navItems = [
   //     { id: 12, name: "404 Error", href: "/404" },
   //   ],
   // },
-  {
-    id: 3,
-    name: "Services",
-    href: "#",
-    subNavItems: [
-      { id: 1, name: "Services", href: "/services" },
-      { id: 5, name: "Web Development", href: "/web-development" },
-      { id: 6, name: "Mobile App Development", href: "/mobile-app-development" },
-      { id: 7, name: "Artificial Intelligence Solutions", href: "/ai-solution" },
-      { id: 8, name: "UI/UX Design", href: "/ui-ux-design" },
-      { id: 9, name: "Graphic Design", href: "/graphic-design" },
-      { id: 10, name: "Specialized Offerings", href: "/specialized-offerings" },
-    ],
-    // subNavItems: [
-    //   { id: 1, name: "Services One", href: "/services" },
-    //   { id: 2, name: "Services One Carousel", href: "/services-carousel" },
-    //   { id: 3, name: "Services Two", href: "/services-two" },
-    //   { id: 4, name: "Services Two Carousel", href: "/services-two-carousel" },
-    //   { id: 5, name: "Business of Growth", href: "/business-growth" },
-    //   { id: 6, name: "Solution to Business", href: "/business-solution" },
-    //   { id: 7, name: "Markting of Solution", href: "/marketing-solution" },
-    //   { id: 8, name: "Technology Services", href: "/technology-services" },
-    //   { id: 9, name: "Marketing Business", href: "/business-marketing" },
-    //   { id: 10, name: "Support of Business", href: "/business-support" },
-    // ],
-  },
+  // {
+  //   id: 3,
+  //   name: "Services",
+  //   href: "#",
+  //   subNavItems: [
+  //     { id: 1, name: "Services", href: "/services" },
+  //     { id: 5, name: "Web Development", href: "/web-development" },
+  //     { id: 6, name: "Mobile App Development", href: "/mobile-app-development" },
+  //     { id: 7, name: "Artificial Intelligence Solutions", href: "/ai-solution" },
+  //     { id: 8, name: "UI/UX Design", href: "/ui-ux-design" },
+  //     { id: 9, name: "Graphic Design", href: "/graphic-design" },
+  //     { id: 10, name: "Specialized Offerings", href: "/specialized-offerings" },
+  //   ],
+  //   // subNavItems: [
+  //   //   { id: 1, name: "Services One", href: "/services" },
+  //   //   { id: 2, name: "Services One Carousel", href: "/services-carousel" },
+  //   //   { id: 3, name: "Services Two", href: "/services-two" },
+  //   //   { id: 4, name: "Services Two Carousel", href: "/services-two-carousel" },
+  //   //   { id: 5, name: "Business of Growth", href: "/business-growth" },
+  //   //   { id: 6, name: "Solution to Business", href: "/business-solution" },
+  //   //   { id: 7, name: "Markting of Solution", href: "/marketing-solution" },
+  //   //   { id: 8, name: "Technology Services", href: "/technology-services" },
+  //   //   { id: 9, name: "Marketing Business", href: "/business-marketing" },
+  //   //   { id: 10, name: "Support of Business", href: "/business-support" },
+  //   // ],
+  // },
 
   // {
   //   id: 4,
@@ -303,11 +327,11 @@ const navItems = [
   //     },
   //   ],
   // },
-  {
-    id: 6,
-    name: "Contact",
-    href: "/contact",
-  },
+  // {
+  //   id: 6,
+  //   name: "Contact",
+  //   href: "/contact",
+  // },
 ];
 
 const social = [
