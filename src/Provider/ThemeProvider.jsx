@@ -55,7 +55,7 @@ const ThemeProvider = ({ children }) => {
 
     toggleMegaMenu(false);
     document.body.classList.remove("megamenu-popup-active");
-  }, [pathname]);
+  }, [pathname ,toggleMegaMenu]);
 
   const value = {
     handleToggle,
