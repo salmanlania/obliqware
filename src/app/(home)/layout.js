@@ -99,7 +99,7 @@ export default function RootLayout({ children }) {
         {/* <ThemeSwitcherProvider themeMap={themes} defaultTheme={themeState}> */}
 
         <ThemeProvider>{children}</ThemeProvider>
-        <a
+        {/* <a
           href="https://wa.me/1234567890"
           target="_blank"
           rel="noopener noreferrer"
@@ -122,7 +122,7 @@ export default function RootLayout({ children }) {
           }}
         >
           <i className="fab fa-whatsapp"></i>
-        </a>
+        </a> */}
 
         {/* </ThemeSwitcherProvider> */}
       </body>
