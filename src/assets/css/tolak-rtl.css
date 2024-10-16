@@ -7125,9 +7125,9 @@ body.megamenu-popup-active .mobile-nav__content {
   letter-spacing: 6px;
 }
 
-.testimonials-card__rating i:last-child {
+/* .testimonials-card__rating i:last-child {
   color: var(--tolak-border-color, #dddddd);
-}
+} */
 
 .testimonials-card__image {
   display: flex;

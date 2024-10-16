@@ -11,8 +11,10 @@ import shape from "@/assets/images/shapes/footer-shape-1.png";
 import shapeTwo from "@/assets/images/shapes/footer-2-shape.png";
 // import footerAbout from "@/assets/images/resources/footer-about.jpg";
 import footerAbout from "@/assets/images/resources/footer-about.webp";
-import post1 from "@/assets/images/blog/lp-1-1.jpg";
-import post2 from "@/assets/images/blog/lp-1-2.jpg";
+// import post1 from "@/assets/images/blog/lp-1-1.jpg";
+// import post2 from "@/assets/images/blog/lp-1-2.jpg";
+import post1 from "@/assets/images/newBlog/web.png";
+import post2 from "@/assets/images/newBlog/mob.png";
 import post6 from "@/assets/images/blog/lp-1-6.jpg";
 import post7 from "@/assets/images/blog/lp-1-7.jpg";
 
@@ -46,17 +48,17 @@ const posts = {
     {
       id: 1,
       image: post1,
-      meta: "23 jun 2023",
-      title: "We round solution york Blog",
-      href: "blog-details",
+      meta: "15 oct 2024",
+      title: "Web Development Solutions for Your Business",
+      href: "blog",
       icon: "icofont-calendar"
     },
     {
       id: 2,
       image: post2,
-      meta: "23 jun 2023",
-      title: "We Should be Descriptive",
-      href: "blog-details",
+      meta: "29 sep 2024",
+      title: "We provide top-notch app development solutions",
+      href: "blog",
       icon: "icofont-calendar"
     },
   ],
@@ -99,7 +101,8 @@ const footerData = {
   postsSix,
   aboutTwoText: "Will give you a complete account the system, and expound the teachings of the great explorer the truth, the master-builder because ...",
   widgetText:
-    "Automotive’s four Frederick locations continues its years tradition of quality auto repair services. ehicle owners in gym enter and take a look.",
+    // "Automotive’s four Frederick locations continues its years tradition of quality auto repair services. ehicle owners in gym enter and take a look.",
+    "With years of delivering quality IT solutions, Obliqware is your trusted partner for web, mobile, and software development. Explore our services and let's drive your business forward.",
   widgetInfo: {
     time: "Open Hours of Government:\n Mon - Fri: 8.00 am. - 6.00 pm.",
     timeIcon: "icofont-clock-time",
@@ -111,24 +114,24 @@ const footerData = {
   },
   widgetSocial,
   services: [
-    { id: 1, href: "/about", title: "Why choose us" },
-    { id: 2, href: "/services", title: "Our Service" },
-    { id: 3, href: "/reviews", title: "Partners" },
-    { id: 4, href: "/contact", title: "Core values" },
-    { id: 5, href: "/project", title: "Our projects" },
+    { id: 1, href: "/", title: "Home" },
+    { id: 2, href: "/about", title: "Why choose us" },
+    { id: 3, href: "/services", title: "Our Service" },
+    { id: 4, href: "/testimonial", title: "Partners" },
+    { id: 5, href: "/contact", title: "Core values" },
   ],
   quickLinks: [
-    { id: 1, href: "/gallery", title: "Gallery" },
+    { id: 1, href: "/project", title: "Our projects" },
     { id: 2, href: "/packages", title: "Packages" },
     { id: 3, href: "/team", title: "Team" },
     { id: 4, href: "/contact", title: "Contact" },
-    { id: 5, href: "/blog-grid-right", title: "News" },
+    { id: 5, href: "/blog", title: "News" },
   ],
   bottomLinks: [
     { id: 1, href: "/about", title: "About Us" },
     { id: 2, href: "/services", title: "Services" },
     { id: 3, href: "/blog-list-right", title: "News" },
-    { id: 4, href: "/portfolio", title: "Portfolio" },
+    { id: 4, href: "/project", title: "Our Project" },
   ],
 };
 

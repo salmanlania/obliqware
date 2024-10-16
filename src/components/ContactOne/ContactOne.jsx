@@ -65,11 +65,11 @@ const ContactOne = ({ rtl }) => {
                             </p>
                         </div>
                     </Col>
-                    <Col lg={4}>
+                    {/* <Col lg={4}>
                         <div className="contact-one__image wow fadeInRight" data-aos='fade-left' data-aos-delay="200">
                             <Image src={rtl ? imageRtl : image} alt="tolak" />
                         </div>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
             <Container className="contact-one__container wow fadeInUp" data-aos='fade-up' data-aos-delay="100">

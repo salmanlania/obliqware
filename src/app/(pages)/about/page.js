@@ -11,7 +11,7 @@ import MailTwo from '@/components/MailTwo/MailTwo';
 import PageHeader from '@/components/PageHeader/PageHeader';
 import ServiceTwo from '@/components/ServiceOne/ServiceOne';
 import TeamOne from '@/components/TeamOne/TeamOne';
-import TestimonialsTwo from '@/components/TestimonialsTwo/TestimonialsTwo';
+import TestimonialsTwo from '@/components/TestimonialsOnePage/TestimonialsOnePage';
 import React from 'react';
 
 const titles = "Home || Obliqware || Your Sucess, We Declare"
@@ -33,7 +33,7 @@ const page = () => {
             <FunFactTwo />
             <CtaOne page={true} />
             <ServiceTwo page={true} titleTwo="two" />
-            <TestimonialsTwo page={true} />
+            {/* <TestimonialsTwo page={true} /> */}
             <FaqOne />
             {/* <TeamOne /> */}
             <MailTwo />

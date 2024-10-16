@@ -15,12 +15,12 @@ const teamOneData = {
             image: image1,
             socials: [
                 { id: 1, icon: faFacebookF, link: "https://facebook.com/salmanlania", name: "Facebook" },
-                { id: 2, icon: faLinkedin, link: "https://linkedin.com/in/salmanlania", name: "Pinterest" },
+                { id: 2, icon: faLinkedin, link: "https://linkedin.com/in/salmanlania", name: "Linkedin" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com/salmanlania", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com/salmanlania", name: "Instagram" },
             ], title: "Salman Lania",
-            href: "team-details",
-            designation: "Founder"
+            href: "team",
+            designation: "Founder & Lead Developer"
 
 
         },
@@ -29,12 +29,12 @@ const teamOneData = {
             image: image2,
             socials: [
                 { id: 1, icon: faFacebookF, link: "https://facebook.com", name: "Facebook" },
-                { id: 2, icon: faLinkedin, link: "https://pinterest.com", name: "Pinterest" },
+                { id: 2, icon: faLinkedin, link: "https://linkedin.com", name: "LinkedIn" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
-            ], title: "Moras Batas",
-            href: "team-details",
-            designation: "Manager"
+            ], title: "Michael Roberts",
+            href: "team",
+            designation: "Project Manager"
 
 
         },
@@ -43,12 +43,12 @@ const teamOneData = {
             image: image3,
             socials: [
                 { id: 1, icon: faFacebookF, link: "https://facebook.com", name: "Facebook" },
-                { id: 2, icon: faLinkedin, link: "https://pinterest.com", name: "Pinterest" },
+                { id: 2, icon: faLinkedin, link: "https://linkedin.com", name: "LinkedIn" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
-            ], title: "Korata Mana",
-            href: "team-details",
-            designation: "Founder"
+            ], title: "Muhammad Aamir",
+            href: "team",
+            designation: "Backend Developer"
 
 
         },
@@ -57,12 +57,12 @@ const teamOneData = {
             image: image4,
             socials: [
                 { id: 1, icon: faFacebookF, link: "https://facebook.com", name: "Facebook" },
-                { id: 2, icon: faLinkedin, link: "https://pinterest.com", name: "Pinterest" },
+                { id: 2, icon: faLinkedin, link: "https://www.linkedin.com/in/muhammad-umair-32117a223/", name: "LinkedIn" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
-            ], title: "Christine Eve",
-            href: "team-details",
-            designation: "Founder"
+            ], title: "Muhammad Umair",
+            href: "team",
+            designation: "Senior UI/UX Designer & Graphics Designer"
 
 
         },
@@ -71,12 +71,12 @@ const teamOneData = {
             image: image5,
             socials: [
                 { id: 1, icon: faFacebookF, link: "https://facebook.com", name: "Facebook" },
-                { id: 2, icon: faLinkedin, link: "https://pinterest.com", name: "Pinterest" },
+                { id: 2, icon: faLinkedin, link: "https://linkedin.com", name: "LinkedIn" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
             ], title: "David Copers",
-            href: "team-details",
-            designation: "Manager"
+            href: "team",
+            designation: "Business Developer"
 
 
         },
@@ -85,12 +85,12 @@ const teamOneData = {
             image: image6,
             socials: [
                 { id: 1, icon: faFacebookF, link: "https://facebook.com", name: "Facebook" },
-                { id: 2, icon: faLinkedin, link: "https://pinterest.com", name: "Pinterest" },
+                { id: 2, icon: faLinkedin, link: "https://linkedin.com", name: "LinkedIn" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
-            ], title: "Kevin Martin",
-            href: "team-details",
-            designation: "Founder"
+            ], title: "Ali Raza",
+            href: "team",
+            designation: "Ai Engineer & Data Scientist"
 
 
         }

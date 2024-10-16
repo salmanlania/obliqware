@@ -29,7 +29,8 @@ const TestimonialsOnePage = () => {
                                 <h3 className="testimonials-card__name">
                                     {name}
                                 </h3>
-                                <p className="testimonials-card__designation">{designation}</p>
+                                {/* <p className="testimonials-card__designation">{designation}</p> */}
+                                {/* <p className="testimonials-card__designation">{designation}</p> */}
                                 <div className="testimonials-card__rating">
                                     {
                                         rating.map((c, i) => <i key={i} className={c}></i>)

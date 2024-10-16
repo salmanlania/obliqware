@@ -46,17 +46,19 @@ const BlogThreeGrid = () => {
                                             <div dangerouslySetInnerHTML={{ __html: date }} />
                                             <div className='blog-card-three__date__year'>{year}</div>
                                         </div>
-                                        <Link href={href} className='blog-card-three__image__link'>
+                                        {/* <Link href={href} className='blog-card-three__image__link'> */}
+                                        <Link href="" className='blog-card-three__image__link'>
                                             <i className='icon-right-arrow'></i>
                                             <span className='sr-only'>{title}</span>
                                         </Link>
                                     </div>
                                     <div className='blog-card-three__content'>
                                         <h3 className='blog-card-three__title'>
-                                            <a href={href}>{title}</a>
+                                            {/* <a href={href}>{title}</a> */}
+                                            <a>{title}</a>
                                         </h3>
                                         <p className='blog-card-three__text'>{text}</p>
-                                        <div className='blog-card-three__meta'>
+                                        {/* <div className='blog-card-three__meta'>
                                             <div className='blog-card-three__meta__author'>
                                                 <Image src={authorImage} alt='tolak' />
                                                 {designation}:<Link href={href}>{author}</Link>
@@ -65,7 +67,7 @@ const BlogThreeGrid = () => {
                                                 <i className='icofont-speech-comments'></i>Comments (
                                                 {comments})
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </Col>)

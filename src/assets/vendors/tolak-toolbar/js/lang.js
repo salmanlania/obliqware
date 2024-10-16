@@ -35,7 +35,7 @@ $(".language-feature button").on("click", function (e) {
   let thmLogo = "images/nav-logo.png";
   let dLogo = "images/logo-dark.png";
   let fLogo = "images/nav-logo.png";
-  let favicon = "images/favicon.ico";
+  let favicon = "images/favicons.ico";
   let error404 = "images/icons/404-image.png";
 
   $("#thm-logo").attr("src", thmLogo);

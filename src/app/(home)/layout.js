@@ -99,6 +99,31 @@ export default function RootLayout({ children }) {
         {/* <ThemeSwitcherProvider themeMap={themes} defaultTheme={themeState}> */}
 
         <ThemeProvider>{children}</ThemeProvider>
+        <a
+          href="https://wa.me/1234567890"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+            backgroundColor: "#25d366",
+            color: "white",
+            fontSize: "42px",
+            width: "60px",
+            height: "60px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            borderRadius: "50%",
+            zIndex: 1000,
+            boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+            transition: "transform 0.3s ease"
+          }}
+        >
+          <i className="fab fa-whatsapp"></i>
+        </a>
+
         {/* </ThemeSwitcherProvider> */}
       </body>
 

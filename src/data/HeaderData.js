@@ -20,7 +20,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const sidebarOneText =
-  "Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ puru rhoncu tincidunt odio ultrices.Sed feugiat feugiat felis.";
+  // "Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ puru rhoncu tincidunt odio ultrices.Sed feugiat feugiat felis.";
+  "With years of delivering quality IT solutions, Obliqware is your trusted partner for web, mobile, and software development. Explore our services and let's drive your business forward."
 
 const singleNavItems = [
   { name: 'Home', href: '/home', },
@@ -118,6 +119,11 @@ const navItems = [
   },
   {
     id: 5,
+    name: "Team",
+    href: "/team",
+  },
+  {
+    id: 6,
     name: "Contact",
     href: "/contact",
   },

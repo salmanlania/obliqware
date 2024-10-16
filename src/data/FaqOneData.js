@@ -1,4 +1,4 @@
-import image from "@/assets/images/resources/faq-1-1.jpg";
+import image from "@/assets/images/resources/faq-1.png";
 import bg from "@/assets/images/shapes/faq-bg-1.jpg";
 const faqOneData = {
   bg,
