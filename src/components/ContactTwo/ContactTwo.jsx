@@ -31,23 +31,58 @@ const ContactTwo = ({ contact }) => {
     return null;
   }
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs.sendForm(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+  //     process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+  //     form.current,
+  //     process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY)
+  //     .then((result) => {
+  //       console.log(result.text);
+  //       toast.success('Email sent successfully!');
+  //     }, (error) => {
+  //       console.log(error.text);
+  //       toast.error('Failed to send email.');
+  //     });
+
+  //   e.target.reset();
+  // };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-      form.current,
-      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY)
-      .then((result) => {
-        console.log(result.text);
-        toast.success('Email sent successfully!');
-      }, (error) => {
-        console.log(error.text);
-        toast.error('Failed to send email.');
+    const formData = new FormData(form.current);
+    const data = {
+      firstName: formData.get('first_name'),
+      lastName: formData.get('last_name'),
+      email: formData.get('email_id'),
+      phoneNumber: formData.get('phone_number'),
+      message: formData.get('message'),
+    };
+
+    try {
+      const response = await fetch('https://obliqware-website-contact-us-api.vercel.app/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
       });
+
+      if (response.ok) {
+        toast.success('Email sent successfully!');
+      } else {
+        toast.error('Failed to send email.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      toast.error('Failed to send email.');
+    }
 
     e.target.reset();
   };
+
   return (
     <section className={`${contact === 'page' ? 'contact-two--contact-page' : ''} contact-two`} id="contact">
       <Container>
@@ -84,8 +119,8 @@ const ContactTwo = ({ contact }) => {
                     Follow Social:
                   </h5>
                   <div className='contact-two__info__social__wrap'>
-                    {socials.map(({ id, link, icon, name }) => (
-                      <Link key={id} href={link}>
+                    {socials.map(({ id, link, icon, name, target }) => (
+                      <Link key={id} href={link} target={target}>
                         <FontAwesomeIcon icon={icon} />
                         <span className='sr-only'>{name}</span>
                       </Link>
@@ -121,7 +156,10 @@ const ContactTwo = ({ contact }) => {
                 >
                   <div className='form-one__group'>
                     <div className='form-one__control'>
-                      <input type='text' name='from_name' placeholder='Your Name' />
+                      <input type='text' name='first_name' placeholder='First Name' />
+                    </div>
+                    <div className='form-one__control'>
+                      <input type='text' name='last_name' placeholder='Last Name' />
                     </div>
                     <div className='form-one__control'>
                       <input
@@ -129,6 +167,9 @@ const ContactTwo = ({ contact }) => {
                         name='email_id'
                         placeholder='Email address'
                       />
+                    </div>
+                    <div className='form-one__control'>
+                      <input type='text' name='phone_number' placeholder='Phone Number' />
                     </div>
                     <div className='form-one__control form-one__control--full'>
                       <textarea name='message' placeholder='Message'></textarea>
