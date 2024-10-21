@@ -54,15 +54,16 @@ const ContactTwo = ({ contact }) => {
 
     const formData = new FormData(form.current);
     const data = {
-      firstName: formData.get('first_name'),
-      lastName: formData.get('last_name'),
+      name: formData.get('first_name'),
+      lname: formData.get('last_name'),
       email: formData.get('email_id'),
-      phoneNumber: formData.get('phone_number'),
+      number: formData.get('phone_number'),
       message: formData.get('message'),
     };
 
     try {
-      const response = await fetch('https://obliqware-website-contact-us-api.vercel.app/contact', {
+      // const response = await fetch('http://localhost:3001/send-email', {
+      const response = await fetch('https://obliqware-website-contact-us-api.vercel.app/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
