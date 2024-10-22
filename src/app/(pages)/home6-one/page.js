@@ -30,7 +30,7 @@ export const metadata = {
 
 const page = () => {
     return (
-        <Layout pageTitle="homeSix">
+        <Layout pageTitle="homesSix">
             <HeaderSixSingle />
             <HeaderSixSingleCloned />
             <MainSliderSix />
