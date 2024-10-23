@@ -35,7 +35,7 @@ const Sidebar = () => {
                     </li>
                     <li>
                         <span className="fas fa-envelope"></span>
-                        <Link href="mailto:info@obliqware.com">info@obliqware.com</Link>
+                        <Link href="mailto:info@obliqware.pk">info@obliqware.pk</Link>
                     </li>
                 </ul>
                 <div className="sidebar-one__social">

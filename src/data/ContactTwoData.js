@@ -25,8 +25,8 @@ const contactTwoData = {
       id: 2,
       icon: "icon-open-mail",
       title: "Your Message",
-      text: "info@obliqware.com",
-      href: "info@obliqware.com",
+      text: "info@obliqware.pk",
+      href: "info@obliqware.pk",
       subHref: "mailto",
     },
 

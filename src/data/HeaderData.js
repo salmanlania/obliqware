@@ -404,7 +404,7 @@ const headerData = {
     {
       id: 1,
       icon: faEnvelope,
-      content: "info@obliqware.com",
+      content: "info@obliqware.pk",
       subHref: "mailto",
     },
     {
