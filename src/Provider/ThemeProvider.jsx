@@ -1,11 +1,10 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState , useCallback} from "react";
 import context from "./context";
 import { usePathname } from "next/navigation";
 
 const ThemeProvider = ({ children }) => {
   const [isExpanded, setIsExpanded] = useState(false);
-
   const [menuStatus, setMenuStatus] = useState(false);
   const [openSearch, setOpenSearch] = useState(false);
   const [openMegaMenu, setOpenMegaMenu] = useState(false);
@@ -34,17 +33,20 @@ const ThemeProvider = ({ children }) => {
 
   //   document.body.classList.toggle("megamenu-popup-active", !openMegaMenu);
   // };
-  const toggleMegaMenu = useCallback((value) => {
-    setOpenMegaMenu((preMenuStatus) =>
-      value === undefined
-        ? !preMenuStatus
-        : typeof value === "boolean"
+  const toggleMegaMenu = useCallback(
+    (value) => {
+      setOpenMegaMenu((preMenuStatus) =>
+        value === undefined
+          ? !preMenuStatus
+          : typeof value === "boolean"
           ? value
           : !!value
-    );
+      );
 
-    document.body.classList.toggle("megamenu-popup-active", !openMegaMenu);
-  }, [openMegaMenu]); 
+      document.body.classList.toggle("megamenu-popup-active", !openMegaMenu);
+    },
+    [openMegaMenu]
+  );
 
   const toggleSearch = () => {
     setOpenSearch((preSearch) => !preSearch);
@@ -62,10 +64,8 @@ const ThemeProvider = ({ children }) => {
     toggleMenu(false);
     setIsExpanded(false);
     setOpenMegaMenu(false);
-
-    toggleMegaMenu(false);
     document.body.classList.remove("megamenu-popup-active");
-  }, [toggleMenu]);
+  }, [toggleMegaMenu]);
 
   const value = {
     handleToggle,

@@ -41,8 +41,8 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <head>
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-F22MLNCZ7T"></script>
-        <script id="google-analytics">
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-F22MLNCZ7T"></Script>
+        <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
 
             gtag('config', 'G-F22MLNCZ7T');
           `}
-        </script>
+        </Script>
       </head>
 
       <body className={`custom- cursor ${pathname === "/home5" ? 'home5' : pathname === "/home5-one" ? 'home5' : pathname === "/home6" ? "home6" : pathname === "/home6-one" ? "home6" : pathname === "/home7" ? 'home7' : pathname === "/home7-one" ? 'home7' : pathname === "/home-boxed" ? "boxed-wrapper" : ''} ${themeState}`}>

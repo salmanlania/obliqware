@@ -7,14 +7,22 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 
 const MobileNavItems = ({ navItem = {} }) => {
-    const pathname = usePathname;
+    const pathname = usePathname();
 
     const [expand, setExpand] = useState(false);
 
+    // const handleExpand = (e) => {
+    //     e.preventDefault();
+    //     e.stopPropagation();
+    //     setExpand(!expand);
+    // };
+
     const handleExpand = (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        setExpand(!expand);
+        if (subNavItems?.length) {
+            e.preventDefault(); // Prevent default link behavior if there are subnav items
+            e.stopPropagation(); // Prevent event from bubbling up
+            setExpand(!expand); // Toggle the submenu
+        }
     };
 
     const { name, href, subNavItems } = navItem;
