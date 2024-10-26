@@ -22,8 +22,19 @@ const ThemeProvider = ({ children }) => {
           : !!value
     );
   };
-  const toggleMegaMenu = (value) => {
+  // const toggleMegaMenu = (value) => {
 
+  //   setOpenMegaMenu((preMenuStatus) =>
+  //     value === undefined
+  //       ? !preMenuStatus
+  //       : typeof value === "boolean"
+  //         ? value
+  //         : !!value
+  //   );
+
+  //   document.body.classList.toggle("megamenu-popup-active", !openMegaMenu);
+  // };
+  const toggleMegaMenu = useCallback((value) => {
     setOpenMegaMenu((preMenuStatus) =>
       value === undefined
         ? !preMenuStatus
@@ -33,8 +44,7 @@ const ThemeProvider = ({ children }) => {
     );
 
     document.body.classList.toggle("megamenu-popup-active", !openMegaMenu);
-  };
-
+  }, [openMegaMenu]); 
 
   const toggleSearch = () => {
     setOpenSearch((preSearch) => !preSearch);
@@ -55,7 +65,7 @@ const ThemeProvider = ({ children }) => {
 
     toggleMegaMenu(false);
     document.body.classList.remove("megamenu-popup-active");
-  }, [toggleMegaMenu]);
+  }, [toggleMenu]);
 
   const value = {
     handleToggle,

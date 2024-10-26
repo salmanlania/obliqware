@@ -40,20 +40,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <head>
-        <Script id="google-analytics" async src="https://www.googletagmanager.com/gtag/js?id=AW-16714499118" strategy="afterInteractive" />
-        <Script
-          id="google-analytics-init"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-F22MLNCZ7T"></script>
+        <script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'AW-16714499118');
-          `,
-          }}
-          />
+            gtag('config', 'G-F22MLNCZ7T');
+          `}
+        </script>
       </head>
 
       <body className={`custom- cursor ${pathname === "/home5" ? 'home5' : pathname === "/home5-one" ? 'home5' : pathname === "/home6" ? "home6" : pathname === "/home6-one" ? "home6" : pathname === "/home7" ? 'home7' : pathname === "/home7-one" ? 'home7' : pathname === "/home-boxed" ? "boxed-wrapper" : ''} ${themeState}`}>
