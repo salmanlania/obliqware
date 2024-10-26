@@ -22,6 +22,7 @@ const inputs = ["name", "email", "message"];
 
 const ContactTwo = ({ contact }) => {
   const [mounted, setMounted] = useState(false);
+  const [loading, setLoading] = useState(false);
   const form = useRef(null)
   useEffect(() => {
     setMounted(true);
@@ -52,6 +53,7 @@ const ContactTwo = ({ contact }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    setLoading(true);
     const formData = new FormData(form.current);
     const data = {
       name: formData.get('first_name'),
@@ -79,7 +81,9 @@ const ContactTwo = ({ contact }) => {
     } catch (error) {
       console.error('Error:', error);
       toast.error('Failed to send email.');
-    }
+    }finally {
+      setLoading(false);
+    } 
 
     e.target.reset();
   };
@@ -177,7 +181,7 @@ const ContactTwo = ({ contact }) => {
                     </div>
                     <div className='form-one__control form-one__control--full'>
                       <button type='submit' className='tolak-btn'>
-                        <b>Send Request</b>
+                        {/* <b>Send Request</b> */} <b>{loading ? 'Sending' : 'Send Request'}</b>
                         <span></span>
                       </button>
                     </div>

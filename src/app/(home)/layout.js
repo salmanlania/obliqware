@@ -57,7 +57,7 @@ import "@/assets/vendors/fontawesome/css/all.min.css";
 import "@/assets/vendors/icofont/icofont.min.css";
 import "@/assets/vendors/tolak-icons-two/style.css";
 import ThemeProvider from "@/Provider/ThemeProvider";
-
+import Script from 'next/script';
 import "aos/dist/aos.css";
 
 import "@/assets/css/tolak.css";
@@ -93,38 +93,28 @@ export default function RootLayout({ children }) {
   // };
   return (
     <html lang='en'>
+      <head>
+        {/* Google tag (gtag.js) */}
+        <Script async id="google-tag" src="https://www.googletagmanager.com/gtag/js?id=AW-16714499118">
+        </Script>
+        <Script id="gtag-config">
+          {
+            `
+            window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-16714499118');
+            `
+          }
+        </Script>
+      </head>
 
       <body className={`custom-cursor ${pathname === "/home5" ? 'home5' : pathname === "/home5-one" ? 'home5' : pathname === "/home6" ? "home6" : pathname === "/home6-one" ? "home6" : pathname === "/home7" ? 'home7' : pathname === "/home7-one" ? 'home7' : pathname === "/home-boxed" ? "boxed-wrapper" : ''} ${themeState}`}>
 
         {/* <ThemeSwitcherProvider themeMap={themes} defaultTheme={themeState}> */}
 
         <ThemeProvider>{children}</ThemeProvider>
-        {/* <a
-          href="https://wa.me/1234567890"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            position: "fixed",
-            bottom: "20px",
-            right: "20px",
-            backgroundColor: "#25d366",
-            color: "white",
-            fontSize: "42px",
-            width: "60px",
-            height: "60px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            borderRadius: "50%",
-            zIndex: 1000,
-            boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
-            transition: "transform 0.3s ease"
-          }}
-        >
-          <i className="fab fa-whatsapp"></i>
-        </a> */}
-
-        {/* </ThemeSwitcherProvider> */}
       </body>
 
 

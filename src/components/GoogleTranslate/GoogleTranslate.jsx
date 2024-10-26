@@ -31,6 +31,29 @@ const GoogleTranslate = ({ lang }) => {
 
 
 
+  // useEffect(() => {
+  //   if (isScriptLoaded) {
+  //     const changeLanguage = (value) => {
+  //       setTimeout(() => {
+  //         const element = document.querySelector(".goog-te-combo");
+  //         console.log(element);
+  //         if (element) {
+  //           element.value = value;
+  //           element.dispatchEvent(new Event("change"));
+  //         }
+
+  //       }, 500);
+
+
+  //     };
+  //     setTimeout(() => {
+  //       changeLanguage(lang);
+
+  //     }, 500)
+
+
+  //   }
+  // }, [isScriptLoaded]);
   useEffect(() => {
     if (isScriptLoaded) {
       const changeLanguage = (value) => {
@@ -41,19 +64,13 @@ const GoogleTranslate = ({ lang }) => {
             element.value = value;
             element.dispatchEvent(new Event("change"));
           }
-
         }, 500);
-
-
       };
       setTimeout(() => {
         changeLanguage(lang);
-
-      }, 500)
-
-
+      }, 500);
     }
-  }, [isScriptLoaded]);
+  }, [isScriptLoaded, lang]);
 
   return (
     <div>

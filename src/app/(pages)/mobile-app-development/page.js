@@ -1,3 +1,5 @@
+import ContactOne from '@/components/ContactOne/ContactOne';
+import ContactOneService from '@/components/ContactOneService/ContactOneService';
 import FooterThree from '@/components/FooterThree/FooterThree';
 import HeaderInner from '@/components/HeaderInner/HeaderInner';
 import HeaderInnerCloned from '@/components/HeaderInner/HeaderInnerCloned';
@@ -21,6 +23,7 @@ const page = () => {
             <HeaderInnerCloned />
             <PageHeader title="Mobile App Development" subTitle="Service Details" />
             <ServiceDetails />
+            <ContactOneService />
             <MailTwo />
             <FooterThree />
         </Layout>

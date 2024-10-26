@@ -25,6 +25,26 @@ const PageHeader = ({ title, subTitle }) => {
                   <span>{subTitle}</span>
                 </li>
               </ul>
+              {/* <div className='main-slider-one__bottom'>
+                <div className='main-slider-one__btn'>
+                  <a
+                    href='/contact'
+                    className='tolak-btn tolak-btn--base'
+                  >
+                    <b>Contact Now</b>
+                    <span></span>
+                  </a>
+                </div>
+              </div> */}
+              <div style={{ marginTop: '2rem' }} className='main-slider-one__bottom'>
+                <a
+                  href='#contact-service-one'
+                  className='tolak-btn tolak-btn--base'
+                >
+                  <b>Get a Free Quote</b>
+                  <span></span>
+                </a>
+              </div>
             </div>
           </div>
           <div className='col-md-5'>

@@ -179,7 +179,7 @@ const serviceDetailsData =
             ],
             solutionText:
                 "Our web development services are fully customizable to align with your business objectives. From intuitive design to backend management, CMS integration, and ongoing support, we tailor each solution to seamlessly integrate into your business strategy.",
-            contentImage: content,
+            contentImage: web,
             secondlastText: "We provide tailored web development services, ensuring that every solution meets the highest standards of quality, performance, and efficiency for your business, whether you need a bespoke web app or a fully integrated e-commerce store.",
             lastText:
                 "Our team redefines your web experience, delivering solutions that are both visually stunning and highly functional. Whether it’s an e-commerce platform, a corporate website, or a custom web application, we use the latest web technologies to ensure your success.",
@@ -235,7 +235,7 @@ const serviceDetailsData =
             ],
             solutionText:
                 "Our mobile app development services are fully customizable to meet your business needs. From frontend design to backend management and ongoing support, we tailor each solution to fit perfectly into your business strategy.",
-            contentImage: content,
+            contentImage: mobile,
             secondlastText: "We provide tailored mobile app development services, ensuring that every solution meets the highest standards of performance, user experience, and scalability for your business.",
             lastText:
                 "Our team reimagines your mobile app experience, creating solutions that engage users and simplify operations. We use the latest technologies to develop apps that not only look good but also function flawlessly.",
@@ -290,7 +290,7 @@ const serviceDetailsData =
             ],
             solutionText:
                 "Our AI services are fully customizable to align with your business goals. From initial consultation to implementation and ongoing support, we tailor each solution to empower your organization and enhance decision-making.",
-            contentImage: content,
+            contentImage: ai,
             solutionText: "We provide tailored AI and generative AI development, management, and support services, ensuring that every solution meets the highest standards of innovation and effectiveness for your business.",
             lastText:
                 "Our team reimagines your approach to AI, delivering solutions that drive growth and enhance capabilities. We utilize the latest advancements in AI technology to create systems that not only deliver results but also adapt to your evolving needs.",
@@ -345,7 +345,7 @@ const serviceDetailsData =
             ],
             solutionText:
                 "Our UI/UX design process is fully customizable to fit your business needs. We collaborate closely with you to create designs that not only look great but also improve functionality and user experience.",
-            contentImage: content,
+            contentImage: ui,
             solutionText: "We provide tailored UI/UX design, management, and support services, ensuring that every solution meets the highest standards of creativity and usability for your business.",
             lastText:
                 "Our team transforms your user experience, delivering designs that drive engagement and foster loyalty. We leverage the latest design principles and technologies to create interfaces that are not only visually appealing but also functionally robust.",
@@ -400,7 +400,7 @@ const serviceDetailsData =
             ],
             solutionText:
                 "Our graphic design process is fully customizable to meet your specific needs. We collaborate closely with you to produce designs that not only stand out but also enhance your overall branding strategy.",
-            contentImage: content,
+            contentImage: graphics,
             secondlastText: "We provide tailored graphic design, management, and support services, ensuring that every solution meets the highest standards of creativity and impact for your business.",
             lastText:
                 "Our team elevates your visual presence, delivering designs that engage and inspire. We utilize the latest design trends and techniques to create graphics that not only look great but also effectively convey your message.",
@@ -455,7 +455,7 @@ const serviceDetailsData =
             ],
             solutionText:
                 "Our custom offerings are fully adaptable to fit your business objectives. We collaborate with you to understand your challenges and craft solutions that enhance your operations and support your growth.",
-            contentImage: content,
+            contentImage: specialized,
             solutionText: "We provide tailored specialized offerings, management, and support services, ensuring that every solution meets the highest standards of quality and innovation for your business.",
             lastText:
                 "Our team is committed to delivering custom solutions that empower your organization. By leveraging our expertise and industry knowledge, we create specialized offerings that not only address your immediate needs but also position you for future success.",

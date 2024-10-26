@@ -200,7 +200,7 @@ const MainSliderOne = () => {
                           <div className='main-slider-one__bottom'>
                             <div className='main-slider-one__btn'>
                               <a
-                                href='services.html'
+                                href='/contact'
                                 className='tolak-btn tolak-btn--base'
                               >
                                 <b>Contact Now</b>

@@ -55,7 +55,7 @@ const ThemeProvider = ({ children }) => {
 
     toggleMegaMenu(false);
     document.body.classList.remove("megamenu-popup-active");
-  }, [pathname]);
+  }, [toggleMegaMenu]);
 
   const value = {
     handleToggle,
@@ -74,7 +74,7 @@ const ThemeProvider = ({ children }) => {
   };
   return <context.Provider value={value}>{children}
     <a
-      href="https://wa.me/1234567890"
+      href="https://wa.me/923462488254"
       target="_blank"
       rel="noopener noreferrer"
       style={{
