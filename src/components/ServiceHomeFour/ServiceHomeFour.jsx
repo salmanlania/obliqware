@@ -58,7 +58,7 @@ const ServiceHomeFour = () => {
                                 <div key={id} className="item">
                                     <div className="service-one__item text-center">
                                         <div className="service-one__item__image">
-                                            <Image src={image} alt="tolak" />
+                                            <Image src={image} alt="Obliqware" />
                                         </div>
                                         <div className="service-one__item__content">
                                             <div className="service-one__item__icon">
@@ -83,7 +83,7 @@ const ServiceHomeFour = () => {
                 </div>
 
             </div>
-            <Image className="service-one--home-four__shape" src={shape} alt="tolak" />
+            <Image className="service-one--home-four__shape" src={shape} alt="Obliqware" />
         </section>
     );
 };

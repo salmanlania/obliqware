@@ -78,7 +78,7 @@ const ServiceTwo = ({ titleTwo, page, nav }) => {
                                 <div key={id} className="item">
                                     <div className="service-two__item wow fadeInUp" data-aos='fade-up' data-aos-delay="100">
                                         <div className="service-two__item__thumb">
-                                            <Image src={image} alt="tolak" />
+                                            <Image src={image} alt="Obliqware" />
                                         </div>
                                         <div className="service-two__item__normal">
                                             <div className="service-two__item__normal__icon"><span className={icon}></span></div>

@@ -106,7 +106,7 @@ const ContactOneService = ({ rtl }) => {
                     </Col>
                     {/* <Col lg={4}>
                         <div className="contact-one__image wow fadeInRight" data-aos='fade-left' data-aos-delay="200">
-                            <Image src={rtl ? imageRtl : image} alt="tolak" />
+                            <Image src={rtl ? imageRtl : image} alt="Obliqware" />
                         </div>
                     </Col> */}
                 </Row>
@@ -116,7 +116,7 @@ const ContactOneService = ({ rtl }) => {
                     <Row >
                         <Col lg={6} className="col-lg-6">
                             <div className="contact-one__image-two">
-                                <Image src={imageTwo} alt="tolak" />
+                                <Image src={imageTwo} alt="Obliqware" />
                             </div>
                         </Col>
                         <Col lg={6} className="col-lg-6" id='contact-service-one'>

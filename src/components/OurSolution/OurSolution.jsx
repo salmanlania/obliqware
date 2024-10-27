@@ -24,9 +24,9 @@ const OurSolution = ({ Two, dark }) => {
                         <div className="our-solution__image">
                             <div className="our-solution__border-one"></div>
                             <div className="our-solution__border-two"></div>
-                            <Image src={Two ? image2 : image} alt="tolak" />
+                            <Image src={Two ? image2 : image} alt="Obliqware" />
                             <div className="our-solution__border-three"></div>
-                            <div className="our-solution__image__shape"><Image src={shape} alt="tolak" /></div>
+                            <div className="our-solution__image__shape"><Image src={shape} alt="Obliqware" /></div>
                         </div>
                     </Col>
                     <Col lg={6}>

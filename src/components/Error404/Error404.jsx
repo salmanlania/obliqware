@@ -11,7 +11,7 @@ const Error404 = () => {
                     Error 404
                 </h2>
                 <div className="error-404__image wow fadeInUp" data-aos="fade-up">
-                    <Image src={image} alt="tolak" />
+                    <Image src={image} alt="Obliqware" />
                 </div>
                 <h3 className="error-404__sub-title">Page not found</h3>
                 <p className="error-404__text">Sorry This Page Not found take a look at our most popular</p>

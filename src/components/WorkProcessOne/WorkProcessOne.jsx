@@ -51,7 +51,7 @@ const WorkProcessOne = () => {
                                 <div className="work-process-one__item text-center wow fadeInUp" data-aos='fade-up' data-aos-delay="00ms">
                                     <div className="work-process-one__item__hover" style={{ backgroundImage: `url(${bg.src})` }}></div>
                                     <div className="work-process-one__item__thumb">
-                                        <Image src={image} alt="tolak" />
+                                        <Image src={image} alt="Obliqware" />
                                         <div className="work-process-one__item__thumb__number"></div>
                                     </div>
                                     <h4 className="work-process-one__item__title">{title}</h4>

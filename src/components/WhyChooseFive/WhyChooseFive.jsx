@@ -12,7 +12,7 @@ const WhyChooseFive = () => {
                 <Row>
                     <Col xl={6}>
                         <div className="why-choose-five__image wow slideInLeft" data-aos='fade-right'>
-                            <Image src={image} alt="tolak" />
+                            <Image src={image} alt="Obliqware" />
                         </div>
                     </Col>
                     <Col xl={6} className="wow fadeInUp" data-aos='fade-up' data-aos-delay="200">

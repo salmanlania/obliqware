@@ -31,10 +31,10 @@ const AboutTwo = () => {
                             onExit={() => setCounterOn(false)}
                         >
                             <div className="about-two__image">
-                                <Image src={image1} alt="tolak" />
-                                <Image src={image2} alt="tolak" />
+                                <Image src={image1} alt="Obliqware" />
+                                <Image src={image2} alt="Obliqware" />
                                 <Tilt className="about-two__image__shape tolak-tilt" options={defaultOptions}>
-                                    <Image src={shape} alt="tolak" />
+                                    <Image src={shape} alt="Obliqware" />
                                 </Tilt>
                                 <Tilt className="about-two__fact count-box tolak-tilt" options={defaultOptions}>
                                     <div className="about-two__fact__icon"><i className="icon-check-mark"></i></div>
@@ -80,10 +80,10 @@ const AboutTwo = () => {
                                         </div>
                                         <div className="col-md-6">
                                             <div className="about-two__content__image">
-                                                <Image src={image} alt="tolak" />
+                                                <Image src={image} alt="Obliqware" />
                                                 <div className="about-two__content__image__bg"></div>
                                                 <div className="about-two__content__image__shape">
-                                                    <Image src={shape} alt="tolak" />
+                                                    <Image src={shape} alt="Obliqware" />
                                                 </div>
                                             </div>
                                         </div>

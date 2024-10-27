@@ -22,7 +22,7 @@ const WhyChooseThree = () => {
                             <div className="why-choose-three__image" data-aos='slide-right'
                                 data-aos-easing='linear'
                                 data-aos-duration='1000'>
-                                <Image src={image1} alt="tolak" />
+                                <Image src={image1} alt="Obliqware" />
                             </div>
                         </div>
                     </Col>

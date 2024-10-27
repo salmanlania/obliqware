@@ -32,7 +32,7 @@ const BlogTwoPage = () => {
                                             </Link>
                                         </div>
                                         <div className="blog-card-two__meta">
-                                            <div className="blog-card-two__meta__author"><Image src={authorImage} alt="tolak" />{designation}:<Link href={href}>{author}</Link></div>
+                                            <div className="blog-card-two__meta__author"><Image src={authorImage} alt="Obliqware" />{designation}:<Link href={href}>{author}</Link></div>
                                             <div className="blog-card-two__meta__date" dangerouslySetInnerHTML={{ __html: date }}></div>
                                             <div className="blog-card-two__meta__year">{year}</div>
                                             <div className="blog-card-two__meta__comments">

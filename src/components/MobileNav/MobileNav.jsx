@@ -21,7 +21,7 @@ const MobileNav = () => {
 
                 <div className="logo-box">
                     <Link href="/" >
-                        <Image src={logo_light.src} width={155} alt="tolak" />
+                        <Image src={logo_light.src} width={155} alt="Obliqware" />
                     </Link>
                 </div>
 

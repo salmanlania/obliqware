@@ -66,21 +66,21 @@ const WhyChooseTwo = () => {
                     </Col>
                     <Col lg={7} >
                         <div className="why-choose-two__image">
-                            <Image src={image1} alt="tolak" />
+                            <Image src={image1} alt="Obliqware" />
                             <div className="why-choose-two__image__two" data-aos='fade-up'
                                 data-aos-easing='linear'
                                 data-aos-duration='200' >
-                                <Image src={image2} alt="tolak" />
+                                <Image src={image2} alt="Obliqware" />
                             </div>
                             <div className="why-choose-two__image__three " data-aos='fade-up'
                                 data-aos-easing='linear'
                                 data-aos-duration='300' >
-                                <Image src={image3} alt="tolak" />
+                                <Image src={image3} alt="Obliqware" />
                             </div>
                             <div className="why-choose-two__image__four " data-aos='fade-up'
                                 data-aos-easing='linear'
                                 data-aos-duration='400' >
-                                <Image src={image4} alt="tolak" />
+                                <Image src={image4} alt="Obliqware" />
                             </div>
                         </div>
                     </Col>

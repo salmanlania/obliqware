@@ -124,7 +124,7 @@ const BlogDetails = () => {
                                 <div className="blog-details__blockquote__meta">
                                     <Image
                                         src={blockquoteAuthor.image}
-                                        alt="tolak"
+                                        alt="Obliqware"
 
                                     />
                                     <h5 className="blog-details__blockquote__meta__name">

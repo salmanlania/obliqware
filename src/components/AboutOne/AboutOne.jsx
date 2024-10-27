@@ -90,7 +90,7 @@ const AboutOne = ({ rtl }) => {
                                 <div className="about-one__content__btn">
                                     <Link href="about" className="tolak-btn"><b>About More</b><span></span></Link>
                                     <h5 className="about-one__content__btn__text">Watching video</h5>
-                                    <Image className="about-one__content__btn__arrow" src={rtl ? arrowRtl : arrow} alt="tolak" />
+                                    <Image className="about-one__content__btn__arrow" src={rtl ? arrowRtl : arrow} alt="Obliqware" />
                                 </div>
                                 <div className="about-one__video-btn">
                                     <div style={{ cursor: "pointer" }} onClick={() => setOpen(true)} className="video-popup">
@@ -105,7 +105,7 @@ const AboutOne = ({ rtl }) => {
                                 <div className="about-one__image" data-aos={`${rtl ? 'slide-right' : 'slide-left'}`}
                                     data-aos-easing='linear'
                                     data-aos-duration='1500'>
-                                    <Image src={elementImage} alt="tolak" />
+                                    <Image src={elementImage} alt="Obliqware" />
                                     <div className="about-one__image__text">
                                         <span></span>{imageText}
                                     </div>

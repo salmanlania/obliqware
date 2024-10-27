@@ -104,7 +104,7 @@ const MainSliderTwo = ({ dark }) => {
     return (
         <section className="main-slider-two" style={{ backgroundImage: `url(${dark ? bgDark.src : bg.src})` }} id="home">
             <Tilt className="main-slider-two__shape tolak-tilt" options={defaultOptions} >
-                <Image src={shape} alt="tolak" />
+                <Image src={shape} alt="Obliqware" />
             </Tilt>
             <Container >
                 <Row className="row">

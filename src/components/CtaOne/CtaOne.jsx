@@ -35,7 +35,7 @@ const CtaOne = ({ rtl, page }) => {
                 <Row className={`d-flex align-items-center ${page ? "flex-row-reverse" : ""}`}>
                     <Col lg={7} className={`wow ${page ? "fadeInRight" : "fadeInLeft"} `} data-aos={`${page ? "fade-left" : "fade-right"} `} data-aos-delay="100">
                         <div className="cta-one__image">
-                            <Image src={image} alt="tolak" />
+                            <Image src={image} alt="Obliqware" />
                         </div>
                     </Col>
                     <Col lg={5} className=" wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
@@ -46,9 +46,9 @@ const CtaOne = ({ rtl, page }) => {
                                 <p className="cta-one__box__text">{text}</p>
                             </div>
                             {/* <div className="cta-one__author">
-                                <Image src={author1} alt="tolak" />
-                                <Image src={author2} alt="tolak" />
-                                <Image src={author3} alt="tolak" />
+                                <Image src={author1} alt="Obliqware" />
+                                <Image src={author2} alt="Obliqware" />
+                                <Image src={author3} alt="Obliqware" />
                                 <Link className="cta-one__author__rm" href={href}>More <span className="fas fa-arrow-right"></span></Link>
                             </div> */}
                             <p className="cta-one__content__text">{conText} <Link href={href}>{conLinkText}</Link></p>

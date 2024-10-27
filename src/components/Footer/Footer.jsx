@@ -42,7 +42,7 @@ const Footer = () => {
 
                             </div>
                             <div className="footer-widget__image">
-                                <Image src={footerAbout} alt="tolak" />
+                                <Image src={footerAbout} alt="Obliqware" />
                             </div>
                         </div>
                     </Col>

@@ -72,8 +72,8 @@ const MainSliderFive = () => {
                             <div className="item" >
                                 <div className="main-slider-five__item">
                                     <div className="main-slider-five__bg">
-                                        <Image src={bg} alt="tolak" />
-                                        <Image src={bg} alt="tolak" />
+                                        <Image src={bg} alt="Obliqware" />
+                                        <Image src={bg} alt="Obliqware" />
                                     </div>
                                     <div className="container">
                                         <div className="main-slider-five__content">

@@ -41,7 +41,7 @@ const CtaTwo = ({ two, rtl }) => {
                         </Col>
                         <Col lg={4} className="wow fadeInUp position-relative" data-aos="fade-up" data-aos-delay="200">
                             <div className="cta-two__image">
-                                <Image src={rtl ? imageRtl : image} alt="tolak" />
+                                <Image src={rtl ? imageRtl : image} alt="Obliqware" />
                             </div>
                             <Link href={`${subHref}:${href}`} className="cta-two__call-text">Call Now</Link>
                         </Col>

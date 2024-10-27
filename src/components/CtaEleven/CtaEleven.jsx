@@ -33,7 +33,7 @@ const CtaEleven = () => {
                         <Col lg={5} className="wow fadeInUp" data-aos='fade-up' data-aos-delay="100">
                             <div className="cta-eleven__image">
                                 <div className="cta-eleven__image__shape" style={{ backgroundImage: `url(${shapeImage.src})` }}></div>
-                                <Image src={image} alt="tolak" />
+                                <Image src={image} alt="Obliqware" />
                             </div>
                         </Col>
                     </Row>

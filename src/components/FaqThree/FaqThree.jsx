@@ -56,7 +56,7 @@ const FaqThree = () => {
                                 <div className="accrodion-content">
                                     <div className="inner">
                                         <div className="inner__image">
-                                            <Image src="assets/images/resources/accordian-image.jpg" alt="tolak">
+                                            <Image src="assets/images/resources/accordian-image.jpg" alt="Obliqware">
                                         </div>
                                         <p>
                                             Solution the connection, we create business marketing platforms business Solution
@@ -75,7 +75,7 @@ const FaqThree = () => {
                                 <div className="accrodion-content">
                                     <div className="inner">
                                         <div className="inner__image">
-                                            <Image src="assets/images/resources/accordian-image.jpg" alt="tolak">
+                                            <Image src="assets/images/resources/accordian-image.jpg" alt="Obliqware">
                                         </div>
                                         <p>
                                             Solution the connection, we create business marketing platforms business Solution
@@ -94,7 +94,7 @@ const FaqThree = () => {
                                 <div className="accrodion-content">
                                     <div className="inner">
                                         <div className="inner__image">
-                                            <Image src="assets/images/resources/accordian-image.jpg" alt="tolak">
+                                            <Image src="assets/images/resources/accordian-image.jpg" alt="Obliqware">
                                         </div>
                                         <p>
                                             Solution the connection, we create business marketing platforms business Solution
@@ -108,11 +108,11 @@ const FaqThree = () => {
                         <div className="faq-three__image">
 
                             <div className="faq-three__image__left wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
-                                <Image src={faqImage1} alt="tolak" />
-                                <Image src={faqImage2} alt="tolak" />
+                                <Image src={faqImage1} alt="Obliqware" />
+                                <Image src={faqImage2} alt="Obliqware" />
                             </div>
                             <div className="faq-three__image__right wow fadeInUp" data-aos="fade-up" data-aos-delay="200">
-                                <Image src={faqImage3} alt="tolak" />
+                                <Image src={faqImage3} alt="Obliqware" />
                             </div>
                         </div>
                     </Col>
