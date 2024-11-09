@@ -69,10 +69,10 @@ const contactTwoData = {
 
   tagLine: "Our Contact Us",
   title: "Connect With Us",
-  text: "We’re here to support your business. Reach out for custom solutions in design, management, and support.",
+  text: "We’re here to support your business. \n Reach out for custom solutions in design, management, and support.",
   appointmentTagLine: "Our Appointment",
   appointmentTitle: "Schedule a Free Consultation",
-  appointmentText: "Book a time to explore tailored solutions that fit your business needs.",
+  appointmentText: "Book a time to explore tailored solutions \n that fit your business needs.",
 };
 
 export default contactTwoData;

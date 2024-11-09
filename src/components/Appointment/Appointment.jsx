@@ -148,7 +148,7 @@ import emailjs from '@emailjs/browser';
 import './appointment.css'
 import toast from "react-hot-toast";
 
-const { bg, infoBoxs, infoText, infoTitle, socials, tagLine, text, title } = contactTwoData;
+const { bg, infoBoxs, infoText, infoTitle, socials, appointmentTagLine, appointmentTitle, appointmentText } = contactTwoData;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
@@ -217,13 +217,13 @@ const Appointment = ({ contact }) => {
                 <div className='sec-title-two text-left'>
                   <h6 className='sec-title-two__tagline'>
                     <span className='sec-title-two__tagline__left icofont-rounded-double-left'></span>
-                    {tagLine}
+                    {appointmentTagLine}
                     <span className='sec-title-two__tagline__right icofont-rounded-double-right'></span>
                   </h6>
-                  <h3 className='sec-title-two__title'>{title}</h3>
+                  <h3 className='sec-title-two__title'>{appointmentTitle}</h3>
                 </div>
                 <p className='contact-two__content__text'>
-                  {text.split("\n").map((t, i) => (
+                  {appointmentText.split("\n").map((t, i) => (
                     <Fragment key={i}>
                       {t}
                       <br />
