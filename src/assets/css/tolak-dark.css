@@ -342,6 +342,7 @@ body.dark .contact-one__wrapper {
 .dark .service-one__item__bottom,
 .dark .service-one__item__content,
 .dark .mail-section__newsletter input[type=text],
+.dark .mail-section__newsletter input[type=email],
 .dark .feature-two__item,
 .dark .main-header__right,
 .dark .contact-two__content .form-one .bootstrap-select>.dropdown-toggle,

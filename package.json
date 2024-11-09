@@ -58,6 +58,7 @@
     "react-vanilla-tilt": "^1.0.0",
     "react-visibility-sensor": "^5.1.1",
     "sharp": "^0.33.5",
+    "sitemap": "^8.0.0",
     "tiny-slider-react": "^0.5.7",
     "wowjs": "^1.1.3"
   },

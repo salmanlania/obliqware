@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import NavItems from "../NavItems/NavItems";
 import { useRootContext } from "@/Provider/context";
-// import MegaMenu from "../MegaMenu/MegaMenu";
+import MegaMenu from "../MegaMenu/MegaMenu";
 
 import useScrollUp from "@/hooks/useScrollUp";
 
@@ -42,7 +42,7 @@ const Header = ({ dark, rtl }) => {
 
           <nav className='main-header__nav main-menu'>
             <ul className='main-menu__list'>
-              {/* <MegaMenu pageTitle='home' /> */}
+              <MegaMenu pageTitle='home' />
 
 
               {navItems.map((item) => (

@@ -8,9 +8,7 @@ import emailjs from '@emailjs/browser';
 import toast from "react-hot-toast";
 const {
   bg,
-
   infoBoxs,
-
   infoText,
   infoTitle,
   socials,
@@ -64,8 +62,9 @@ const ContactTwo = ({ contact }) => {
     };
 
     try {
+      const response = await fetch('https://contact-us-api.obliqware.pk/send-email', {
       // const response = await fetch('http://localhost:3001/send-email', {
-      const response = await fetch('https://obliqware-website-contact-us-api.vercel.app/send-email', {
+      // const response = await fetch('https://obliqware-website-contact-us-api.vercel.app/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

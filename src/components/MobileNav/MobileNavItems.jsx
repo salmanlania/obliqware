@@ -20,7 +20,7 @@ const MobileNavItems = ({ navItem = {} }) => {
     const handleExpand = (e) => {
         if (subNavItems?.length) {
             e.preventDefault(); // Prevent default link behavior if there are subnav items
-            e.stopPropagation(); // Prevent event from bubbling up
+            // e.stopPropagation(); // Prevent event from bubbling up
             setExpand(!expand); // Toggle the submenu
         }
     };

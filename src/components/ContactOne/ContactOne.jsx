@@ -44,7 +44,7 @@ const ContactOne = ({ rtl }) => {
         };
     
         try {
-          const response = await fetch('http://localhost:3001/send-email', {
+          const response = await fetch('https://contact-us-api.obliqware.pk/send-email', {
         //   const response = await fetch('https://obliqware-website-contact-us-api.vercel.app/send-email', {
             method: 'POST',
             headers: {

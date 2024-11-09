@@ -7,8 +7,8 @@ const SubNavItems = ({ subItem = {} }) => {
     const [expand, setExpand] = useState(false);
 
     const handleExpand = (e) => {
-        e.preventDefault();
-        e.stopPropagation();
+        // e.preventDefault();
+        // e.stopPropagation();
         setExpand((preExpand) => !preExpand);
     };
 
@@ -20,6 +20,10 @@ const SubNavItems = ({ subItem = {} }) => {
                 {subItems?.length && dropdown && (
                     <button
                         // onClick={handleExpand}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            toggleExpand();
+                        }}
                         aria-label='dropdown toggler'
                         className={expand ? "expanded" : ""}
                     >

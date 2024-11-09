@@ -1,11 +1,33 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
+// import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 // import bannerLayer from "@/assets/images/backgrounds/page-banner-layer.webp";
 // import bannerLayer from "@/assets/images/backgrounds/man-stand.jpg";
 import bannerLayer from "@/assets/images/backgrounds/man-standing-laptop.png";
 import Link from "next/link";
 
 const PageHeader = ({ title, subTitle }) => {
+  const pathname = usePathname();
+
+  const allowedPaths = [
+    '/web-development',
+    '/mobile-app-development',
+    '/ai-solution',
+    '/ui-ux-design',
+    '/graphic-design',
+    '/specialized-offerings',
+  ];
+
+  const scrollToContactService = () => {
+    const element = document.getElementById('contact-service-one');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className='page-header'>
       <div className='page-header__bg'></div>
@@ -36,7 +58,7 @@ const PageHeader = ({ title, subTitle }) => {
                   </a>
                 </div>
               </div> */}
-              <div style={{ marginTop: '2rem' }} className='main-slider-one__bottom'>
+              {/* <div style={{ marginTop: '2rem' }} className='main-slider-one__bottom'>
                 <a
                   href='#contact-service-one'
                   className='tolak-btn tolak-btn--base'
@@ -44,6 +66,14 @@ const PageHeader = ({ title, subTitle }) => {
                   <b>Get a Free Quote</b>
                   <span></span>
                 </a>
+              </div> */}
+              <div style={{ marginTop: '2rem' }} className='main-slider-one__bottom'>
+                {allowedPaths.includes(pathname) && (
+                  <a onClick={scrollToContactService}className='tolak-btn tolak-btn--base'>
+                    <b>Get a Free Quote</b>
+                    <span></span>
+                  </a>
+                )}
               </div>
             </div>
           </div>

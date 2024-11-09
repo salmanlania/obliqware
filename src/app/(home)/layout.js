@@ -17,14 +17,14 @@ import "@/assets/vendors/icofont/icofont.min.css";
 import "@/assets/vendors/tolak-icons-two/style.css";
 import ThemeProvider from "@/Provider/ThemeProvider";
 import "aos/dist/aos.css";
+import Script from 'next/script';
+import Head from 'next/head';
 
 import "@/assets/css/tolak.css";
 import "@/assets/css/tolak-dark.css";
 import { usePathname } from "next/navigation";
 
 import { useEffect, useState } from "react";
-import Script from 'next/script';
-
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -39,19 +39,38 @@ export default function RootLayout({ children }) {
   }, [pathname]);
   return (
     <html lang='en'>
-      <head>
-        {/* Google tag (gtag.js) */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-F22MLNCZ7T"></Script>
-        <Script id="google-analytics">
-          {`
+      <Head>
+
+      </Head>
+      {/* Google Analytics Script */}
+      <Script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=G-F22MLNCZ7T`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'G-F22MLNCZ7T');
           `}
-        </Script>
-      </head>
+      </Script>
+
+      {/* Google Ads Script */}
+      <Script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=AW-16761372846`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-ads" strategy="afterInteractive">
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16761372846');
+          `}
+      </Script>
 
       <body className={`custom- cursor ${pathname === "/home5" ? 'home5' : pathname === "/home5-one" ? 'home5' : pathname === "/home6" ? "home6" : pathname === "/home6-one" ? "home6" : pathname === "/home7" ? 'home7' : pathname === "/home7-one" ? 'home7' : pathname === "/home-boxed" ? "boxed-wrapper" : ''} ${themeState}`}>
 

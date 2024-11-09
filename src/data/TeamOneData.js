@@ -57,12 +57,12 @@ const teamOneData = {
             image: image4,
             socials: [
                 { id: 1, icon: faFacebookF, link: "https://facebook.com", name: "Facebook" },
-                { id: 2, icon: faLinkedin, link: "https://www.linkedin.com/in/muhammad-umair-32117a223/", name: "LinkedIn" },
+                { id: 2, icon: faLinkedin, link: "https://www.linkedin.com/", name: "LinkedIn" },
                 { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
                 { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
             ], title: "Muhammad Umair",
             href: "team",
-            designation: "Senior UI/UX Designer & Graphics Designer"
+            designation: "Senior UI/UX Designer"
 
 
         },
@@ -91,9 +91,47 @@ const teamOneData = {
             ], title: "Ali Raza",
             href: "team",
             designation: "Ai Engineer & Data Scientist"
+        },
+        {
+            id: 7,
+            image: image4,
+            socials: [
+                { id: 1, icon: faFacebookF, link: "https://facebook.com", name: "Facebook" },
+                { id: 2, icon: faLinkedin, link: "https://www.linkedin.com/", name: "LinkedIn" },
+                { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
+                { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
+            ], title: "Farhan Ali",
+            href: "team",
+            designation: "Graphic Designer"
 
 
-        }
+        },
+        {
+            id: 8,
+            image: image5,
+            socials: [
+                { id: 1, icon: faFacebookF, link: "https://facebook.com", name: "Facebook" },
+                { id: 2, icon: faLinkedin, link: "https://linkedin.com", name: "LinkedIn" },
+                { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
+                { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
+            ], title: "Alex Martin",
+            href: "team",
+            designation: "Senior Frontend Developer"
+
+
+        },
+        {
+            id: 6,
+            image: image6,
+            socials: [
+                { id: 1, icon: faFacebookF, link: "https://facebook.com", name: "Facebook" },
+                { id: 2, icon: faLinkedin, link: "https://linkedin.com", name: "LinkedIn" },
+                { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
+                { id: 4, icon: faInstagram, link: "https://instagram.com", name: "Instagram" },
+            ], title: "Ali Raza",
+            href: "team",
+            designation: "Senior Mobile App Developer"
+        },
     ]
 
 

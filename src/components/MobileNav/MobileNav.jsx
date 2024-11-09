@@ -38,7 +38,7 @@ const MobileNav = () => {
                 <ul className="mobile-nav__contact list-unstyled">
                     <li>
                         <i className="fa fa-envelope"></i>
-                        <a href="mailto:contact@obliqware.pk">contact@obliqware.pk</a>
+                        <a href="mailto:info@obliqware.pk">info@obliqware.pk</a>
                     </li>
                     <li>
                         <i className="fa fa-phone-alt"></i>

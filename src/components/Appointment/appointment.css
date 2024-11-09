@@ -1,0 +1,33 @@
+.form-one__control {
+    width: 100%;           /* Full width */
+    padding: 12px;
+    font-size: 16px;       /* Consistent font size */
+    background-color: #f9f9f9; /* Same background color */
+    border: 1px solid #ddd;
+    border-radius: 4px;    /* Consistent border radius */
+    color: #B7B7B7;           /* Text color */
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+    -webkit-appearance: none; /* Removes default dropdown arrow styling in Safari */
+    -moz-appearance: none;    /* Removes default dropdown arrow styling in Firefox */
+    appearance: none;       /* Removes default dropdown arrow styling */
+  }
+  
+  .form-one__control:focus {
+    outline: none;
+    border-color: #a1a1a1; /* Slight border change on focus */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /* Optional shadow on focus */
+  }
+  .dropdown-wrapper {
+    position: relative;
+  }
+  
+  .dropdown-wrapper .dropdown-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust as needed */
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevents icon from interfering with clicks */
+    color: #666; /* Icon color */
+    font-size: 12px; /* Adjust icon size */
+  }
+  
