@@ -68,8 +68,11 @@ const contactTwoData = {
   ],
 
   tagLine: "Our Contact Us",
-  title: "Get free Business touch Customers me.",
-  text: "Business tailored it design, management & support services \n business agency elit, sed do eiusmod tempor.",
+  title: "Connect With Us",
+  text: "We’re here to support your business. Reach out for custom solutions in design, management, and support.",
+  appointmentTagLine: "Our Appointment",
+  appointmentTitle: "Schedule a Free Consultation",
+  appointmentText: "Book a time to explore tailored solutions that fit your business needs.",
 };
 
 export default contactTwoData;
