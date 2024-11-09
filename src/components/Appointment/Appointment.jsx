@@ -184,7 +184,7 @@ const Appointment = ({ contact }) => {
     };
 
     try {
-      const response = await fetch('http://localhost:3002/book-appointment', {
+      const response = await fetch('https://backend-api.obliqware.pk/book-appointment', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
