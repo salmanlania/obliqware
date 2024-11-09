@@ -44,6 +44,7 @@ export async function GET() {
     '/ui-ux-design',
     '/graphic-design',
     '/specialized-offerings',
+    '/project',
     '/blog',
     '/team',
     '/contact'

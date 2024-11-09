@@ -57,9 +57,11 @@
 //     '/services/ui-ux-design',
 //     '/services/graphic-design',
 //     '/specialized-offerings',
+//     '/project',
 //     '/blog',
 //     '/team',
-//     '/contact'
+//     '/contact',
+//     '/appointment'
 //   ];
 
 //   const stream = new SitemapStream({ hostname: baseUrl });
@@ -71,3 +73,4 @@
 //   res.setHeader('Content-Type', 'application/xml');
 //   res.status(200).end(sitemap);
 // }
+
