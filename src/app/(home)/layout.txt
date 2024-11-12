@@ -16,14 +16,14 @@ import "@/assets/vendors/fontawesome/css/all.min.css";
 import "@/assets/vendors/icofont/icofont.min.css";
 import "@/assets/vendors/tolak-icons-two/style.css";
 import ThemeProvider from "@/Provider/ThemeProvider";
-
 import "aos/dist/aos.css";
+import Script from 'next/script';
+import Head from 'next/head';
 
 import "@/assets/css/tolak.css";
 import "@/assets/css/tolak-dark.css";
 import { usePathname } from "next/navigation";
-import Script from 'next/script';
-import Head from 'next/head';
+
 import { useEffect, useState } from "react";
 
 export default function RootLayout({ children }) {
@@ -37,51 +37,23 @@ export default function RootLayout({ children }) {
       setThemeState("light");
     }
   }, [pathname]);
-
-  useEffect(() => {
-    console.log('Pages Layout - Current Path:', pathname);
-  }, [pathname]);
-
-  const onGALoad = () => {
-    console.log('Pages Layout - Google Analytics Script Loaded');
-  };
-
-  const onAdsLoad = () => {
-    console.log('Pages Layout - Google Ads Script Loaded');
-  };
-
-  // useEffect(() => {
-  //   if (themeState === "dark") {
-  //     import("@/assets/css/tolak-dark.css");
-  //   }
-  // }, [themeState]);
-
-  // const themes = {
-  //   dark: "/_next/static/css/tolak-dark.css",
-  //   light: "/_next/static/css/tolak.css",
-  // };
   return (
     <html lang='en'>
+      <Head>
 
-<Head>
       </Head>
       {/* Google Analytics Script */}
       <Script
         async
         src={`https://www.googletagmanager.com/gtag/js?id=G-F22MLNCZ7T`}
         strategy="afterInteractive"
-        onLoad={onGALoad}
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-F22MLNCZ7T', {
-              page_path: '${pathname}',
-              debug_mode: true
-            });
-            console.log('Pages Layout - GA Script Initialized');
+            gtag('config', 'G-F22MLNCZ7T');
           `}
       </Script>
 
@@ -90,27 +62,20 @@ export default function RootLayout({ children }) {
         async
         src={`https://www.googletagmanager.com/gtag/js?id=AW-16761372846`}
         strategy="afterInteractive"
-        onLoad={onAdsLoad}
       />
       <Script id="google-ads" strategy="afterInteractive">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-16761372846', {
-              page_path: '${pathname}',
-              debug_mode: true
-            });
-            console.log('Pages Layout - Ads Script Initialized');
+            gtag('config', 'AW-16761372846');
           `}
       </Script>
 
-      <body className={`custom-cursor ${pathname === "/home5" ? 'home5' : pathname === "/home5-one" ? 'home5' : pathname === "/home6" ? "home6" : pathname === "/home6-one" ? "home6" : pathname === "/home7" ? 'home7' : pathname === "/home7-one" ? 'home7' : pathname === "/home-boxed" ? "boxed-wrapper" : ''} ${themeState}`}>
+      <body className={`custom- cursor ${pathname === "/home5" ? 'home5' : pathname === "/home5-one" ? 'home5' : pathname === "/home6" ? "home6" : pathname === "/home6-one" ? "home6" : pathname === "/home7" ? 'home7' : pathname === "/home7-one" ? 'home7' : pathname === "/home-boxed" ? "boxed-wrapper" : ''} ${themeState}`}>
 
-        {/* <ThemeSwitcherProvider themeMap={themes} defaultTheme={themeState}> */}
 
         <ThemeProvider>{children}</ThemeProvider>
-        {/* </ThemeSwitcherProvider> */}
       </body>
 
 
