@@ -18,13 +18,16 @@ import "@/assets/vendors/tolak-icons-two/style.css";
 import ThemeProvider from "@/Provider/ThemeProvider";
 
 import "aos/dist/aos.css";
+import Script from 'next/script';
+import Head from 'next/head';
 
 import "@/assets/css/tolak.css";
 import "@/assets/css/tolak-dark.css";
 import { usePathname } from "next/navigation";
-import Script from 'next/script';
-import Head from 'next/head';
+
 import { useEffect, useState } from "react";
+
+
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -36,19 +39,32 @@ export default function RootLayout({ children }) {
     } else {
       setThemeState("light");
     }
+
+    console.log(`" Pages " Navigated to ${pathname}`);
+
+    // Reinitialize Google Analytics
+    // window.dataLayer = window.dataLayer || [];
+    // function gtag(){window.dataLayer.push(arguments);}
+    // gtag('js', new Date());
+    // gtag('config', 'G-F22MLNCZ7T');
+    // gtag('config', 'AW-16761372846');
+
+    // console.log(`"Pages" Google Analytics and Ads reinitialized on ${pathname}`);
+
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('config', 'G-F22MLNCZ7T', {
+        page_path: pathname,
+      });
+      console.log(`"Pages" Google Analytics reinitialized on ${pathname}`);
+
+      window.gtag('config', 'AW-16761372846', {
+        page_path: pathname,
+      });
+      console.log(`"Pages" Google Ads reinitialized on ${pathname}`);
+    }
+
   }, [pathname]);
 
-  useEffect(() => {
-    console.log('Pages Layout - Current Path:', pathname);
-  }, [pathname]);
-
-  const onGALoad = () => {
-    console.log('Pages Layout - Google Analytics Script Loaded');
-  };
-
-  const onAdsLoad = () => {
-    console.log('Pages Layout - Google Ads Script Loaded');
-  };
 
   // useEffect(() => {
   //   if (themeState === "dark") {
@@ -62,27 +78,22 @@ export default function RootLayout({ children }) {
   // };
   return (
     <html lang='en'>
+      <Head>
 
-<Head>
       </Head>
       {/* Google Analytics Script */}
       <Script
         async
         src={`https://www.googletagmanager.com/gtag/js?id=G-F22MLNCZ7T`}
         strategy="afterInteractive"
-        onLoad={onGALoad}
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-F22MLNCZ7T', {
-              page_path: '${pathname}',
-              debug_mode: true
-            });
-            console.log('Pages Layout - GA Script Initialized');
-          `}
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F22MLNCZ7T');
+    `}
       </Script>
 
       {/* Google Ads Script */}
@@ -90,19 +101,14 @@ export default function RootLayout({ children }) {
         async
         src={`https://www.googletagmanager.com/gtag/js?id=AW-16761372846`}
         strategy="afterInteractive"
-        onLoad={onAdsLoad}
       />
       <Script id="google-ads" strategy="afterInteractive">
         {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-16761372846', {
-              page_path: '${pathname}',
-              debug_mode: true
-            });
-            console.log('Pages Layout - Ads Script Initialized');
-          `}
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16761372846');
+    `}
       </Script>
 
       <body className={`custom-cursor ${pathname === "/home5" ? 'home5' : pathname === "/home5-one" ? 'home5' : pathname === "/home6" ? "home6" : pathname === "/home6-one" ? "home6" : pathname === "/home7" ? 'home7' : pathname === "/home7-one" ? 'home7' : pathname === "/home-boxed" ? "boxed-wrapper" : ''} ${themeState}`}>

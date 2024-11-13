@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '@/assets/images/resources/404.jpg'
+import image from '@/assets/images/resources/error.gif'
 import Image from 'next/image';
 import Link from 'next/link';
 
