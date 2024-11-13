@@ -9,7 +9,7 @@ import PageHeader from '@/components/PageHeader/PageHeader';
 import ServiceDetails from '@/components/ServiceDetails/ServiceDetails';
 import React from 'react';
 
-const title = "Artificial Intelligence Solutions || Obliqware || Your Sucess, We Declare";
+const title = "Artificial Intelligence Solutions Science and Data || Obliqware || Your Sucess, We Declare";
 export const metadata = {
     title: title,
     description: title,
