@@ -14,11 +14,11 @@ const teamOneData = {
             id: 1,
             image: image1,
             socials: [
-                { id: 1, icon: faFacebookF, link: "https://facebook.com/salmanlania", name: "Facebook" },
-                { id: 2, icon: faLinkedin, link: "https://linkedin.com/in/salmanlania", name: "Linkedin" },
-                { id: 3, icon: faTwitter, link: "https://twitter.com/salmanlania", name: "Twitter" },
-                { id: 4, icon: faInstagram, link: "https://instagram.com/salmanlania", name: "Instagram" },
-            ], title: "Salman Lania",
+                { id: 1, icon: faFacebookF, link: "https://facebook.com/", name: "Facebook" },
+                { id: 2, icon: faLinkedin, link: "https://linkedin.com/", name: "Linkedin" },
+                { id: 3, icon: faTwitter, link: "https://twitter.com/", name: "Twitter" },
+                { id: 4, icon: faInstagram, link: "https://instagram.com/", name: "Instagram" },
+            ], title: "Jack Lisa",
             href: "team",
             designation: "Founder & Lead Developer"
 
