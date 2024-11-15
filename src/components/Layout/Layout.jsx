@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
+import Script from "next/script";
 
 // import WOW from 'wowjs';
 import CustomCursor from "../CustomCursor/CustomCursor";
@@ -14,8 +15,21 @@ import { Toaster } from "react-hot-toast";
 
 const Layout = ({ children, pageTitle }) => {
   const [mounted, setMounted] = useState(false);
+  const pathname = usePathname();
 
-
+  const trackPageView = (path) => {
+    if (window.gtag) {
+      console.log("Tracking page view:", path); // Debug log
+      gtag("config", "G-F22MLNCZ7T", {
+        page_path: path,
+      });
+      gtag("config", "AW-16761372846", {
+        page_path: path,
+      });
+    } else {
+      console.warn("gtag is not defined"); // Debug log if gtag is not available
+    }
+  };
 
   useEffect(() => {
     setMounted(true);
@@ -23,6 +37,7 @@ const Layout = ({ children, pageTitle }) => {
 
   useEffect(() => {
     if (!mounted) return;
+    trackPageView(pathname);
 
     const tolakBtns = document.querySelectorAll(".tolak-btn");
 
@@ -66,16 +81,37 @@ const Layout = ({ children, pageTitle }) => {
     };
   }, [mounted]);
 
-
-
-
   useEffect(() => {
     if (!mounted) return;
 
     AOS.init();
-
-
   }, [mounted]);
+
+  // useEffect(() => {
+  //   if (window.gtag) {
+  //     // Trigger Google Analytics pageview
+  //     console.log("Tracking page view:", pathname);
+  //     gtag("config", "G-F22MLNCZ7T", {
+  //       page_path: pathname,
+  //     });
+
+  //     // Trigger Google Ads pageview
+  //     gtag("config", "AW-16761372846", {
+  //       page_path: pathname,
+  //     });
+  //   }else {
+  //     console.warn("gtag is not defined");
+  //   }
+  // }, [pathname]);
+
+  useEffect(() => {
+    trackPageView(pathname);
+  }, []); // Run on initial mount
+
+  // Tracking for route changes
+  useEffect(() => {
+    trackPageView(pathname);
+  }, [pathname]);
 
   if (!mounted) {
     return null;
@@ -83,6 +119,41 @@ const Layout = ({ children, pageTitle }) => {
 
   return (
     <>
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-F22MLNCZ7T"
+      />
+      <Script
+        strategy="afterInteractive"
+        id="google-analytics"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-F22MLNCZ7T');
+          `,
+        }}
+      />
+
+      {/* Google Ads Script */}
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16761372846"
+      />
+      <Script
+        strategy="afterInteractive"
+        id="google-ads"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16761372846');
+          `,
+        }}
+      />
+
       <CustomCursor />
       <Preloader />
       <div className='page-wrapper'>

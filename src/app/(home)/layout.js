@@ -46,17 +46,17 @@ export default function RootLayout({ children }) {
     
     // console.log(`Google Analytics and Ads reinitialized on ${pathname}`);
 
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('config', 'G-F22MLNCZ7T', {
-        page_path: pathname,
-      });
-      console.log(`"Pages" Google Analytics reinitialized on ${pathname}`);
+    // if (typeof window !== 'undefined' && window.gtag) {
+    //   window.gtag('config', 'G-F22MLNCZ7T', {
+    //     page_path: pathname,
+    //   });
+    //   console.log(`"Pages" Google Analytics reinitialized on ${pathname}`);
 
-      window.gtag('config', 'AW-16761372846', {
-        page_path: pathname,
-      });
-      console.log(`"Pages" Google Ads reinitialized on ${pathname}`);
-    }
+    //   window.gtag('config', 'AW-16761372846', {
+    //     page_path: pathname,
+    //   });
+    //   console.log(`"Pages" Google Ads reinitialized on ${pathname}`);
+    // }
 
   }, [pathname]);
   return (
@@ -64,7 +64,7 @@ export default function RootLayout({ children }) {
       <Head>
 
       </Head>
-      {/* Google Analytics Script */}
+      {/* Google Analytics Script
       <Script
         async
         src={`https://www.googletagmanager.com/gtag/js?id=G-F22MLNCZ7T`}
@@ -79,7 +79,7 @@ export default function RootLayout({ children }) {
           `}
       </Script>
 
-      {/* Google Ads Script */}
+      Google Ads Script
       <Script
         async
         src={`https://www.googletagmanager.com/gtag/js?id=AW-16761372846`}
@@ -93,7 +93,7 @@ export default function RootLayout({ children }) {
             gtag('js', new Date());
             gtag('config', 'AW-16761372846');
           `}
-      </Script>
+      </Script> */}
 
       <body className={`custom- cursor ${pathname === "/home5" ? 'home5' : pathname === "/home5-one" ? 'home5' : pathname === "/home6" ? "home6" : pathname === "/home6-one" ? "home6" : pathname === "/home7" ? 'home7' : pathname === "/home7-one" ? 'home7' : pathname === "/home-boxed" ? "boxed-wrapper" : ''} ${themeState}`}>
 
