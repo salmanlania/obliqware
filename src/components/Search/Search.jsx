@@ -32,7 +32,7 @@ const Search = () => {
 
       <div className='search-popup__content'>
         <form onSubmit={handleSearch} className='search-popup__form' action='#'>
-          <input type='text' id='search' placeholder='Search Here...' />
+          <input type='text' name='search' id='search' placeholder='Search Here...' />
           <button
             type='submit'
             aria-label='search submit'
