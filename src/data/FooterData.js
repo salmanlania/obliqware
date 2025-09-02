@@ -114,12 +114,12 @@ const footerData = {
   },
   widgetSocial,
   services: [
-    { id: 1, name: "Web Development", href: "/web-development" },
-    { id: 2, name: "Mobile App Development", href: "/mobile-app-development" },
-    { id: 3, name: "Artificial Intelligence Solutions", href: "/ai-solution" },
-    { id: 4, name: "UI/UX Design", href: "/ui-ux-design" },
-    { id: 5, name: "Graphic Design", href: "/graphic-design" },
-    { id: 6, name: "Specialized Offerings", href: "/specialized-offerings" },
+    { id: 1, title: "Web Development", href: "/web-development" },
+    { id: 2, title: "Mobile App Development", href: "/mobile-app-development" },
+    { id: 3, title: "Artificial Intelligence Solutions", href: "/ai-solution" },
+    { id: 4, title: "UI/UX Design", href: "/ui-ux-design" },
+    { id: 5, title: "Graphic Design", href: "/graphic-design" },
+    { id: 6, title: "Specialized Offerings", href: "/specialized-offerings" },
   ],
   quickLinks: [
     { id: 1, href: "/", title: "Home" },
