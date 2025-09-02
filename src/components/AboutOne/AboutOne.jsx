@@ -89,15 +89,15 @@ const AboutOne = ({ rtl }) => {
                                 <div className="clearfix"></div>
                                 <div className="about-one__content__btn">
                                     <Link href="about" className="tolak-btn"><b>About More</b><span></span></Link>
-                                    <h5 className="about-one__content__btn__text">Watching video</h5>
-                                    <Image className="about-one__content__btn__arrow" src={rtl ? arrowRtl : arrow} alt="Obliqware" />
+                                    {/* <h5 className="about-one__content__btn__text">Watching video</h5>
+                                    <Image className="about-one__content__btn__arrow" src={rtl ? arrowRtl : arrow} alt="Obliqware" /> */}
                                 </div>
-                                <div className="about-one__video-btn">
+                                {/* <div className="about-one__video-btn">
                                     <div style={{ cursor: "pointer" }} onClick={() => setOpen(true)} className="video-popup">
                                         <i className="fa fa-play"></i>
                                         <span className="video-popup__btn-ripple"></span>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </Col>
                         <Col xl={6} >
