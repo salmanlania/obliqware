@@ -121,6 +121,22 @@ const footerData = {
     { id: 5, title: "Graphic Design", href: "/graphic-design" },
     { id: 6, title: "Specialized Offerings", href: "/specialized-offerings" },
   ],
+  // products: [
+  //   { id: 1, title: "Erplix ERP System", href: "/erplix" },
+  //   { id: 2, title: "FBR e-Invoice Integration", href: "/fbr-einvoice" },
+  //   { id: 3, title: "E-commerce Management", href: "/ecommerce" },
+  //   { id: 4, title: "HR Management System", href: "/hr-system" },
+  //   { id: 5, title: "Accounting System", href: "/accounting-system" },
+  //   { id: 6, title: "RetailPOS", href: "/retail-pos" },
+  // ],
+  products: [
+    { id: 1, title: "Erplix ERP System", href: "/coming-soon" },
+    { id: 2, title: "FBR e-Invoice Integration", href: "/coming-soon" },
+    { id: 3, title: "E-commerce Management", href: "/coming-soon" },
+    { id: 4, title: "HR Management System", href: "/coming-soon" },
+    { id: 5, title: "Accounting System", href: "/coming-soon" },
+    { id: 6, title: "RetailPOS", href: "/coming-soon" },
+  ],
   quickLinks: [
     { id: 1, href: "/", title: "Home" },
     { id: 2, href: "/project", title: "Our projects" },

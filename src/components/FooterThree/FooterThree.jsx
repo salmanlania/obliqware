@@ -2,7 +2,6 @@ import footerData from "@/data/FooterData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 const {
   footerBgThree,
@@ -10,9 +9,8 @@ const {
   footerLogo,
   posts,
   widgetText,
-  widgetInfo,
   widgetSocial,
-  footerAbout,
+  products,
   services,
   quickLinks,
   bottomLinks,
@@ -66,6 +64,18 @@ const FooterThree = () => {
               </ul>
             </div>
           </Col>
+          <Col md={6} lg={3}>
+            <div className='footer-widget footer-widget--links'>
+              <h2 className='footer-widget__title'>Products</h2>
+              <ul className='list-unstyled footer-widget__links'>
+                {products.map(({ id, title, href }) => (
+                  <li key={id}>
+                    <Link href={href}>{title}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </Col>
           <Col md={6} lg={2}>
             <div className='footer-widget footer-widget--links main-footer-two--ml30'>
               <h2 className='footer-widget__title'>Quick Link</h2>
@@ -78,7 +88,7 @@ const FooterThree = () => {
               </ul>
             </div>
           </Col>
-          <Col md={6} lg={3}>
+          {/* <Col md={6} lg={3}>
             <div className='footer-widget footer-widget--posts'>
               <h2 className='footer-widget__title'>Recent Posts</h2>
               <ul className='footer-widget__posts list-unstyled'>
@@ -98,7 +108,7 @@ const FooterThree = () => {
                 ))}
               </ul>
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
       <div className='main-footer-three__bottom'>

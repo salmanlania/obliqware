@@ -39,7 +39,6 @@ const Footer = () => {
                                             <span className="sr-only">{title}</span>
                                         </Link>)
                                 }
-
                             </div>
                             <div className="footer-widget__image">
                                 <Image src={footerAbout} alt="Obliqware" />

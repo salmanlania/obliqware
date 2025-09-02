@@ -2952,7 +2952,8 @@ h6 {
   -webkit-transition: all 200ms ease-out;
   transition: all 200ms ease-out;
   position: fixed;
-  pointer-events: none;;
+  pointer-events: none;
+  ;
   left: 0;
   top: 0;
   -webkit-transform: translate(calc(-50% + 5px), -50%);
@@ -2969,7 +2970,8 @@ h6 {
   position: fixed;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  pointer-events: none;;
+  pointer-events: none;
+  ;
   -webkit-transition: width 0.3s, height 0.3s, opacity 0.3s;
   transition: width 0.3s, height 0.3s, opacity 0.3s;
   z-index: 999991;
@@ -3499,6 +3501,29 @@ h6 {
   color: var(--tolak-white, #fff);
   transition: all 500ms ease;
   border-radius: 50%;
+}
+
+.footer-widget__socials a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: var(--tolak-white, #fff);
+  transition: all 500ms ease;
+  border-radius: 50%;
+}
+
+.invalid-feedback {
+  color: #ff4d4f;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+  text-align: left;
+}
+
+.is-invalid {
+  border-color: #ff4d4f;
 }
 
 .footer-widget__social a:hover {
@@ -11690,7 +11715,8 @@ body.megamenu-popup-active .mobile-nav__content {
   content: "";
   width: 5px;
   height: 8px;
-  pointer-events: none;;
+  pointer-events: none;
+  ;
   -webkit-transform-origin: 66% 66%;
   -ms-transform-origin: 66% 66%;
   transform-origin: 66% 66%;

@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-const NewsLetterForm = ({ status, message, onValidated, mail, ctaThree }) => {
+const NewsLetterForm = ({ status, message, onValidated, mail, ctaThree, loading }) => {
   const [isMount, setIsMount] = useState(false);
 
   useEffect(() => {
@@ -64,15 +64,14 @@ const NewsLetterForm = ({ status, message, onValidated, mail, ctaThree }) => {
     <>
       {/* ctaThree ? "cta-three__newsletter" : */}
       <div
-        className={`${
-          mail === "one"
+        className={`${mail === "one"
             ? "mail-section__newsletter"
             : ctaThree
-            ? "cta-three__newsletter"
-            : mail === "two"
-            ? "mail-section-two__newsletter"
-            : "sidebar-one__newsletter"
-        } mc-form"`}
+              ? "cta-three__newsletter"
+              : mail === "two"
+                ? "mail-section-two__newsletter"
+                : "sidebar-one__newsletter"
+          } mc-form"`}
       >
         <input
           ref={(node) => (email = node)}
@@ -80,7 +79,15 @@ const NewsLetterForm = ({ status, message, onValidated, mail, ctaThree }) => {
           name='EMAIL'
           placeholder='Email address'
         />
-        {mail || ctaThree ? (
+        <button
+          onClick={submit}
+          type='submit'
+          className='fas fa-paper-plane'
+          disabled={loading}
+        >
+          {loading ? '...' : ''}
+        </button>
+        {/* {mail || ctaThree ? (
           <>
             <button onClick={submit} type='submit' className='tolak-btn'>
               <b>Subscribe</b>
@@ -98,7 +105,7 @@ const NewsLetterForm = ({ status, message, onValidated, mail, ctaThree }) => {
               <span className='sr-only'>submit</span>
             </button>
           </>
-        )}
+        )} */}
       </div>
       <div className='mc-form__response'>
         {status === "sending" && <div>sending...</div>}
