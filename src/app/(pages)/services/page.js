@@ -10,8 +10,7 @@ import HeaderInnerCloned from '@/components/HeaderInner/HeaderInnerCloned';
 
 export const metadata = {
     title: "Service Page || Obliqware || Your Sucess, We Declare",
-    description:
-        "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
+    description: "Service Page || Obliqware || Your Sucess, We Declare",
 };
 
 const page = () => {

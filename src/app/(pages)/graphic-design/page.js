@@ -12,8 +12,7 @@ const title = "Graphic Design || Obliqware || Your Sucess, We Declare"
 
 export const metadata = {
     title: title,
-    description:title,
-        // "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
+    description: title,
 };
 
 const page = () => {

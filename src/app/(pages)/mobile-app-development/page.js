@@ -9,11 +9,10 @@ import PageHeader from '@/components/PageHeader/PageHeader';
 import ServiceDetails from '@/components/ServiceDetails/ServiceDetails';
 import React from 'react';
 
-const title =  "Mobile App Development || Obliqware || Your Sucess, We Declare";
+const title = "Mobile App Development || Obliqware || Your Sucess, We Declare";
 export const metadata = {
     title: title,
     description: title,
-        // "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
 };
 
 const page = () => {

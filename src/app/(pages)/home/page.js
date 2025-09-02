@@ -23,8 +23,7 @@ import HeaderCloned from "@/components/Header/HeaderCloned";
 
 export const metadata = {
   title: "Home One || Obliqware || Your Sucess, We Declare",
-  description:
-    "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
+  description: "Home One || Obliqware || Your Sucess, We Declare"
 };
 
 

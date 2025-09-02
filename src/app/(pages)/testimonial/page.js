@@ -11,8 +11,7 @@ import React from 'react';
 
 export const metadata = {
     title: "Testimonial Page || Obliqware || Your Sucess, We Declare",
-    description:
-        "Tolak is a modern NextJS Template for Business, It Solution, Corporate, Agency, Portfolio shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.",
+    description: "Testimonial Page || Obliqware || Your Sucess, We Declare",
 };
 
 const page = () => {
