@@ -63,7 +63,7 @@ const featureOneData = {
         {
             id: 3,
             icon: "icon-advertisement",
-            title: "Tailored Business Solution",
+            title: "Custom Business Solution",
             text: "Custom solutions that align with your goals for maximum impact.",
             shape: shape1
 
