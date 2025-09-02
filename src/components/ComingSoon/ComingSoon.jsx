@@ -147,7 +147,7 @@ const ComingSoon = () => {
                                 <i className="fab fa-linkedin fa-2x"></i>
                             </Link>
                         </div> */}
-                        <div className='footer-widget__socials d-flex justify-content-center'>
+                        <div className='footer-widget__socials d-flex justify-content-center mb-4'>
                             {widgetSocial.map(({ id, href, icon, title }) => (
                                 <Link href={href} key={id}>
                                     <FontAwesomeIcon icon={icon} style={{ color: '#0d6efd', fontSize: '1.5rem', background: 'none !important' }} />
@@ -157,7 +157,7 @@ const ComingSoon = () => {
                         </div>
 
                         {/* Back to Home */}
-                        <Link href="/" className="btn btn-outline-light px-4 py-2">
+                        <Link href="/" className="btn btn-outline-primary px-4 py-2">
                             ⬅ Back to Home
                         </Link>
                     </Col>
