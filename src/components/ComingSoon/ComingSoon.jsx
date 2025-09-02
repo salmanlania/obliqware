@@ -84,6 +84,7 @@ const ComingSoon = () => {
 
             if (response.ok) {
                 toast.success('Email Notify sent successfully!');
+                setEmail('')
             } else {
                 toast.error('Failed to send email notify.');
             }
